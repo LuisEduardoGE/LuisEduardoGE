@@ -41,76 +41,58 @@ fun_fact: I built a self-improving Snake game with AI!
 ## Languages & Frameworks
 
 <div align="center">
-<table>
-<tr>
-<td align="center" width="50%">
 
-### Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=1a1b27)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=1a1b27)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=1a1b27)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=1a1b27)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=1a1b27)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=1a1b27)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white&labelColor=1a1b27)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=1a1b27)
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=python&theme=dark" height="28" /> &nbsp; **Python** &emsp;
-<img src="https://go-skill-icons.vercel.app/api/icons?i=java&theme=dark" height="28" /> &nbsp; **Java** &emsp;
-<img src="https://go-skill-icons.vercel.app/api/icons?i=javascript&theme=dark" height="28" /> &nbsp; **JavaScript**
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white&labelColor=1a1b27)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=1a1b27)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white&labelColor=1a1b27)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white&labelColor=1a1b27)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white&labelColor=1a1b27)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white&labelColor=1a1b27)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white&labelColor=1a1b27)
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=typescript&theme=dark" height="28" /> &nbsp; **TypeScript** &emsp;
-<img src="https://go-skill-icons.vercel.app/api/icons?i=html&theme=dark" height="28" /> &nbsp; **HTML5** &emsp;
-<img src="https://go-skill-icons.vercel.app/api/icons?i=css&theme=dark" height="28" /> &nbsp; **CSS3**
+</div>
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=dart&theme=dark" height="28" /> &nbsp; **Dart** &emsp;
-<img src="https://go-skill-icons.vercel.app/api/icons?i=bash&theme=dark" height="28" /> &nbsp; **Bash**
+---
 
-</td>
-<td align="center" width="50%">
+## DevOps & Databases
 
-### Frameworks
+<div align="center">
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=flask&theme=dark" height="28" /> &nbsp; **Flask** &emsp;
-<img src="https://go-skill-icons.vercel.app/api/icons?i=fastapi&theme=dark" height="28" /> &nbsp; **FastAPI** &emsp;
-<img src="https://go-skill-icons.vercel.app/api/icons?i=django&theme=dark" height="28" /> &nbsp; **Django**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=1a1b27)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=1a1b27)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&labelColor=1a1b27)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=1a1b27)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=1a1b27)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=1a1b27)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white&labelColor=1a1b27)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white&labelColor=1a1b27)
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=spring&theme=dark" height="28" /> &nbsp; **Spring Boot** &emsp;
-<img src="https://go-skill-icons.vercel.app/api/icons?i=flutter&theme=dark" height="28" /> &nbsp; **Flutter**
+</div>
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=nodejs&theme=dark" height="28" /> &nbsp; **Node.js** &emsp;
-<img src="https://go-skill-icons.vercel.app/api/icons?i=bootstrap&theme=dark" height="28" /> &nbsp; **Bootstrap**
+---
 
-</td>
-</tr>
-<tr>
-<td align="center" width="50%">
+## AI & LLM Tools
 
-### DevOps & Databases
+<div align="center">
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=docker&theme=dark" height="28" /> &nbsp; **Docker** &emsp;
-<img src="https://go-skill-icons.vercel.app/api/icons?i=git&theme=dark" height="28" /> &nbsp; **Git** &emsp;
-<img src="https://go-skill-icons.vercel.app/api/icons?i=github&theme=dark" height="28" /> &nbsp; **GitHub**
+![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white&labelColor=1a1b27)
+![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white&labelColor=1a1b27)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-74AA9C?style=for-the-badge&logo=openai&logoColor=white&labelColor=1a1b27)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white&labelColor=1a1b27)
+![Ollama](https://img.shields.io/badge/Ollama-FFFFFF?style=for-the-badge&logo=ollama&logoColor=white&labelColor=1a1b27)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black&labelColor=1a1b27)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white&labelColor=1a1b27)
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=linux&theme=dark" height="28" /> &nbsp; **Linux** &emsp;
-<img src="https://go-skill-icons.vercel.app/api/icons?i=postgresql&theme=dark" height="28" /> &nbsp; **PostgreSQL** &emsp;
-<img src="https://go-skill-icons.vercel.app/api/icons?i=mysql&theme=dark" height="28" /> &nbsp; **MySQL**
-
-<img src="https://go-skill-icons.vercel.app/api/icons?i=mongodb&theme=dark" height="28" /> &nbsp; **MongoDB** &emsp;
-<img src="https://go-skill-icons.vercel.app/api/icons?i=vscode&theme=dark" height="28" /> &nbsp; **VS Code** &emsp;
-<img src="https://go-skill-icons.vercel.app/api/icons?i=wordpress&theme=dark" height="28" /> &nbsp; **WordPress**
-
-</td>
-<td align="center" width="50%">
-
-### AI & LLM Tools
-
-<img src="https://go-skill-icons.vercel.app/api/icons?i=claude&theme=dark" height="28" /> &nbsp; **Claude** &emsp;
-<img src="https://go-skill-icons.vercel.app/api/icons?i=githubcopilot&theme=dark" height="28" /> &nbsp; **GitHub Copilot**
-
-<img src="https://go-skill-icons.vercel.app/api/icons?i=chatgpt&theme=dark" height="28" /> &nbsp; **ChatGPT** &emsp;
-<img src="https://go-skill-icons.vercel.app/api/icons?i=gemini&theme=dark" height="28" /> &nbsp; **Gemini**
-
-<img src="https://go-skill-icons.vercel.app/api/icons?i=ollama&theme=dark" height="28" /> &nbsp; **Ollama** &emsp;
-<img src="https://go-skill-icons.vercel.app/api/icons?i=huggingface&theme=dark" height="28" /> &nbsp; **HuggingFace**
-
-<img src="https://go-skill-icons.vercel.app/api/icons?i=figma&theme=dark" height="28" /> &nbsp; **Figma**
-
-</td>
-</tr>
-</table>
 </div>
 
 ---

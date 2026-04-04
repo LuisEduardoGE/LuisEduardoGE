@@ -38,57 +38,51 @@ fun_fact: I built a self-improving Snake game with AI!
 
 ---
 
-## Languages & Frameworks
+## Skills & Expertise
 
 <div align="center">
+<table>
+<tr>
+<td align="center" width="50%">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+### Languages
+<br>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=python,java,javascript,typescript&theme=dark" alt="Languages 1" /><br><br>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=html,css,dart,bash&theme=dark" alt="Languages 2" />
+<br><br>
 
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+</td>
+<td align="center" width="50%">
 
-</div>
+### Frameworks
+<br>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=flask,fastapi,django,spring&theme=dark" alt="Frameworks 1" /><br><br>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=flutter,nodejs,bootstrap,jquery&theme=dark" alt="Frameworks 2" />
+<br><br>
 
----
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
 
-## DevOps & Databases
+### DevOps & Databases
+<br>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=docker,git,github,linux&theme=dark" alt="DevOps 1" /><br><br>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=postgresql,mysql,mongodb,vscode&theme=dark" alt="DevOps 2" />
+<br><br>
 
-<div align="center">
+</td>
+<td align="center" width="50%">
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
+### AI & LLM Tools
+<br>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=claude,githubcopilot,chatgpt,gemini&theme=dark" alt="AI 1" /><br><br>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=ollama,huggingface,wordpress,figma&theme=dark" alt="AI 2" />
+<br><br>
 
-</div>
-
----
-
-## AI & LLM Tools
-
-<div align="center">
-
-![Claude](https://img.shields.io/badge/Claude-191919?style=for-the-badge&logo=anthropic&logoColor=white)
-![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white)
-![ChatGPT](https://img.shields.io/badge/ChatGPT-74AA9C?style=for-the-badge&logo=openai&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-
+</td>
+</tr>
+</table>
 </div>
 
 ---

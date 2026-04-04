@@ -1,33 +1,46 @@
-<div align="center">
+# Hi there, I'm Luis Eduardo Guerreiro Espindola! 👋
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Luis%20Eduardo%20G.%20Espindola&fontSize=36&fontColor=ffffff&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20Entrepreneur%20%7C%20Building%20Real%20Products&descSize=16&descAlignY=55&animation=fadeIn" width="100%"/>
-
-[![GitHub followers](https://img.shields.io/github/followers/LuisEduardoGE?logo=github&style=for-the-badge&color=0969da&labelColor=1a1b27)](https://github.com/LuisEduardoGE)
-[![GitHub stars](https://img.shields.io/github/stars/LuisEduardoGE?logo=github&style=for-the-badge&color=0969da&labelColor=1a1b27)](https://github.com/LuisEduardoGE)
-[![Profile Views](https://komarev.com/ghpvc/?username=LuisEduardoGE&color=0969da&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/LuisEduardoGE)
-
-</div>
+[![Twitter Follow](https://img.shields.io/twitter/follow/LuisEduardoGE?style=social)](https://twitter.com/LuisEduardoGE)
+[![Linkedin: Luis Eduardo](https://img.shields.io/badge/-Luis%20Eduardo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/luisgespindola/)](https://www.linkedin.com/in/luisgespindola/)
+[![GitHub followers](https://img.shields.io/github/followers/LuisEduardoGE?label=Follow&style=social)](https://github.com/LuisEduardoGE)
+[![GitHub stars](https://img.shields.io/github/stars/LuisEduardoGE?style=social)](https://github.com/LuisEduardoGE)
 
 ---
 
-## About Me
+## 🚀 About Me
 
-I'm a **Full-Stack Developer and Entrepreneur** based in **Brussels, Belgium**, originally from Brazil. I'm the founder of **W-Tech IT Solutions**, where I build and ship real products — from backend APIs and payment systems to mobile-first web apps deployed in production.
+I'm a **Full-Stack Developer & Entrepreneur** with a passion for building real products end-to-end — from backend APIs and payment systems to mobile-first web apps deployed in production. Founder of **W-Tech IT Solutions**, based in the **Brussels region, Belgium**, originally from Brazil.
 
-My flagship project is **Skipy** — a food court ordering platform with real-time WebSocket notifications, Stripe payment processing, and WooCommerce integration, currently live and serving customers at **Centro Comercial Vasco da Gama** in Lisbon.
+My flagship project is **Skipy** — a food court ordering platform with real-time WebSocket notifications, Stripe payment processing, and WooCommerce integration, currently live and serving customers at **Centro Comercial Vasco da Gama** in Lisbon, Portugal.
 
-I believe in learning by building. Every repo here is either a production system, a tool I actually use, or a deep-dive comparison to sharpen my skills.
-
-- **Backend specialist:** Python (Flask, FastAPI, Django), Java (Spring Boot)
-- **Full-stack capable:** JavaScript, React, responsive mobile-first UIs
-- **Integrations:** Stripe Payments, WooCommerce REST API, Firebase, WebSockets
-- **Infrastructure:** Apache, SSL/TLS, MySQL, Linux server deployment
-- **Languages spoken:** Portuguese, English, French
-- **Always exploring:** Flutter, AI/LLM tools, and new ways to ship faster
+- 💡 I'm always learning about **Python, Java, REST APIs, payment integrations**, and modern web frameworks.
+- 🏗️ I build and deploy **production systems** — from backend APIs with Stripe & WooCommerce to mobile-first marketplace UIs.
+- 🖥️ All of my projects are available at [my GitHub repos](https://github.com/LuisEduardoGE?tab=repositories).
+- 💬 Ask me about **Python, Flask, FastAPI, Django, Spring Boot, Stripe Payments, WooCommerce, WebSockets**, and full-stack development.
+- 📫 How to find me: reach out on my [LinkedIn page](https://www.linkedin.com/in/luisgespindola/).
+- 🤝 I'm always looking to collaborate on interesting projects, especially **Python and JavaScript** based.
+- 🌐 I speak English 🇬🇧, Portuguese 🇧🇷, and French 🇫🇷, feel free to reach out.
 
 ---
 
-## Tech Stack
+## 🛠 Skills
+
+- **Backend Development:** Python, Java, Flask, FastAPI, Django, Spring Boot, REST APIs, WebSockets, Microservices
+- **Frontend & Mobile:** JavaScript, TypeScript, HTML5, CSS3, React, Bootstrap, Flutter, Dart
+- **Databases:** MySQL, PostgreSQL, MongoDB, SQLite
+- **Payments & E-Commerce:** Stripe API, WooCommerce REST API, WordPress, Order Management Systems
+- **Cloud & DevOps:** Docker, Linux, Apache, SSL/TLS, Git, GitHub, CI/CD, Bash/Shell Scripting
+- **Real-Time:** Flask-SocketIO, WebSockets, Push Notifications, Firebase
+- **AI & LLM Tools:** Claude, GitHub Copilot, ChatGPT, Gemini, Ollama, HuggingFace
+- **IDEs & Editors:** VS Code, PyCharm, IntelliJ IDEA, Cursor
+- **Architecture & Design:** REST API Design, System Design, Figma, Responsive Design, Mobile-First UIs
+- **Others:** QR Code Generation, CSV Data Processing, Image Processing (Pillow), Particles.js, Parallax Effects
+
+![Full-Stack Developer](https://img.shields.io/badge/Full--Stack_Developer-0078D4?style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square) ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square) ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square) ![REST APIs](https://img.shields.io/badge/REST_APIs-FF6C37?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square) ![Entrepreneur](https://img.shields.io/badge/Entrepreneur-FF4500?style=flat-square)
+
+---
+
+## 🛠 Tech Stack
 
 <div align="center">
 <img src="https://skillicons.dev/icons?i=python,java,js,ts,html,css&theme=dark" alt="Languages" /><br><br>
@@ -38,7 +51,7 @@ I believe in learning by building. Every repo here is either a production system
 
 ---
 
-## Languages & Frameworks
+## 💻 Languages & Frameworks
 
 <div align="center">
 
@@ -64,7 +77,7 @@ I believe in learning by building. Every repo here is either a production system
 
 ---
 
-## DevOps, Databases & Integrations
+## ☁️ DevOps, Databases & Integrations
 
 <div align="center">
 
@@ -86,7 +99,7 @@ I believe in learning by building. Every repo here is either a production system
 
 ---
 
-## AI & LLM Tools
+## 🤖 AI & LLM Tools
 
 <div align="center">
 
@@ -102,7 +115,7 @@ I believe in learning by building. Every repo here is either a production system
 
 ---
 
-## Featured Projects
+## 📂 Featured Projects
 
 <div align="center">
 
@@ -120,16 +133,14 @@ I believe in learning by building. Every repo here is either a production system
 
 ---
 
-## Connect with Me
+## 🔗 Connect with Me
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luisgespindola/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LuisEduardoGE)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luisedu.ge@gmail.com)
-[![W--Tech IT Solutions](https://img.shields.io/badge/W--Tech_IT_Solutions-0078D4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://wtechitsolutions.com/)
-
-</div>
+- 📍 **Location:** Brussels region, Belgium
+- 💼 **LinkedIn:** [linkedin.com/in/luisgespindola](https://www.linkedin.com/in/luisgespindola/)
+- 🏢 **My Company's Website:** [www.wtechitsolutions.com](https://www.wtechitsolutions.com/)
+- 🐦 **Twitter/X:** [@LuisEduardoGE](https://twitter.com/LuisEduardoGE)
+- 📧 **Email:** [luisedu.ge@gmail.com](mailto:luisedu.ge@gmail.com)
+- 🐙 **GitHub:** [github.com/LuisEduardoGE](https://github.com/LuisEduardoGE)
 
 ---
 

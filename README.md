@@ -38,7 +38,7 @@ fun_fact: I built a self-improving Snake game with AI!
 
 ---
 
-## Skills & Expertise
+## Languages & Frameworks
 
 <div align="center">
 <table>
@@ -46,19 +46,32 @@ fun_fact: I built a self-improving Snake game with AI!
 <td align="center" width="50%">
 
 ### Languages
-<br>
-<img src="https://go-skill-icons.vercel.app/api/icons?i=python,java,javascript,typescript&theme=dark" alt="Languages 1" /><br><br>
-<img src="https://go-skill-icons.vercel.app/api/icons?i=html,css,dart,bash&theme=dark" alt="Languages 2" />
-<br><br>
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=python&theme=dark" height="28" /> &nbsp; **Python** &emsp;
+<img src="https://go-skill-icons.vercel.app/api/icons?i=java&theme=dark" height="28" /> &nbsp; **Java** &emsp;
+<img src="https://go-skill-icons.vercel.app/api/icons?i=javascript&theme=dark" height="28" /> &nbsp; **JavaScript**
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=typescript&theme=dark" height="28" /> &nbsp; **TypeScript** &emsp;
+<img src="https://go-skill-icons.vercel.app/api/icons?i=html&theme=dark" height="28" /> &nbsp; **HTML5** &emsp;
+<img src="https://go-skill-icons.vercel.app/api/icons?i=css&theme=dark" height="28" /> &nbsp; **CSS3**
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=dart&theme=dark" height="28" /> &nbsp; **Dart** &emsp;
+<img src="https://go-skill-icons.vercel.app/api/icons?i=bash&theme=dark" height="28" /> &nbsp; **Bash**
 
 </td>
 <td align="center" width="50%">
 
 ### Frameworks
-<br>
-<img src="https://go-skill-icons.vercel.app/api/icons?i=flask,fastapi,django,spring&theme=dark" alt="Frameworks 1" /><br><br>
-<img src="https://go-skill-icons.vercel.app/api/icons?i=flutter,nodejs,bootstrap,jquery&theme=dark" alt="Frameworks 2" />
-<br><br>
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=flask&theme=dark" height="28" /> &nbsp; **Flask** &emsp;
+<img src="https://go-skill-icons.vercel.app/api/icons?i=fastapi&theme=dark" height="28" /> &nbsp; **FastAPI** &emsp;
+<img src="https://go-skill-icons.vercel.app/api/icons?i=django&theme=dark" height="28" /> &nbsp; **Django**
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=spring&theme=dark" height="28" /> &nbsp; **Spring Boot** &emsp;
+<img src="https://go-skill-icons.vercel.app/api/icons?i=flutter&theme=dark" height="28" /> &nbsp; **Flutter**
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=nodejs&theme=dark" height="28" /> &nbsp; **Node.js** &emsp;
+<img src="https://go-skill-icons.vercel.app/api/icons?i=bootstrap&theme=dark" height="28" /> &nbsp; **Bootstrap**
 
 </td>
 </tr>
@@ -66,19 +79,34 @@ fun_fact: I built a self-improving Snake game with AI!
 <td align="center" width="50%">
 
 ### DevOps & Databases
-<br>
-<img src="https://go-skill-icons.vercel.app/api/icons?i=docker,git,github,linux&theme=dark" alt="DevOps 1" /><br><br>
-<img src="https://go-skill-icons.vercel.app/api/icons?i=postgresql,mysql,mongodb,vscode&theme=dark" alt="DevOps 2" />
-<br><br>
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=docker&theme=dark" height="28" /> &nbsp; **Docker** &emsp;
+<img src="https://go-skill-icons.vercel.app/api/icons?i=git&theme=dark" height="28" /> &nbsp; **Git** &emsp;
+<img src="https://go-skill-icons.vercel.app/api/icons?i=github&theme=dark" height="28" /> &nbsp; **GitHub**
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=linux&theme=dark" height="28" /> &nbsp; **Linux** &emsp;
+<img src="https://go-skill-icons.vercel.app/api/icons?i=postgresql&theme=dark" height="28" /> &nbsp; **PostgreSQL** &emsp;
+<img src="https://go-skill-icons.vercel.app/api/icons?i=mysql&theme=dark" height="28" /> &nbsp; **MySQL**
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=mongodb&theme=dark" height="28" /> &nbsp; **MongoDB** &emsp;
+<img src="https://go-skill-icons.vercel.app/api/icons?i=vscode&theme=dark" height="28" /> &nbsp; **VS Code** &emsp;
+<img src="https://go-skill-icons.vercel.app/api/icons?i=wordpress&theme=dark" height="28" /> &nbsp; **WordPress**
 
 </td>
 <td align="center" width="50%">
 
 ### AI & LLM Tools
-<br>
-<img src="https://go-skill-icons.vercel.app/api/icons?i=claude,githubcopilot,chatgpt,gemini&theme=dark" alt="AI 1" /><br><br>
-<img src="https://go-skill-icons.vercel.app/api/icons?i=ollama,huggingface,wordpress,figma&theme=dark" alt="AI 2" />
-<br><br>
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=claude&theme=dark" height="28" /> &nbsp; **Claude** &emsp;
+<img src="https://go-skill-icons.vercel.app/api/icons?i=githubcopilot&theme=dark" height="28" /> &nbsp; **GitHub Copilot**
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=chatgpt&theme=dark" height="28" /> &nbsp; **ChatGPT** &emsp;
+<img src="https://go-skill-icons.vercel.app/api/icons?i=gemini&theme=dark" height="28" /> &nbsp; **Gemini**
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=ollama&theme=dark" height="28" /> &nbsp; **Ollama** &emsp;
+<img src="https://go-skill-icons.vercel.app/api/icons?i=huggingface&theme=dark" height="28" /> &nbsp; **HuggingFace**
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=figma&theme=dark" height="28" /> &nbsp; **Figma**
 
 </td>
 </tr>

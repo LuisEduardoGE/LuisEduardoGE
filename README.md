@@ -16,7 +16,7 @@ My flagship project is **Skipy** — a food court ordering platform with real-ti
 - 💡 I'm always learning about **Python, Java, REST APIs, payment integrations**, and modern web frameworks.
 - 🏗️ I build and deploy **production systems** — from backend APIs with Stripe & WooCommerce to mobile-first marketplace UIs.
 - 🖥️ All of my projects are available at [my GitHub repos](https://github.com/LuisEduardoGE?tab=repositories).
-- 💬 Ask me about **Python, Flask, FastAPI, Django, Spring Boot, Stripe Payments, WooCommerce, WebSockets**, and full-stack development.
+- 💬 Ask me about **FastAPI, React, TypeScript, Stripe Payments, WebSockets, AI-assisted development (Claude, Cursor, Windsurf)**, and full-stack architecture.
 - 📫 How to find me: reach out on my [LinkedIn page](https://www.linkedin.com/in/luisgespindola/).
 - 🤝 I'm always looking to collaborate on interesting projects, especially **Python and JavaScript** based.
 - 🌐 I speak English 🇬🇧, Portuguese 🇧🇷, and French 🇫🇷, feel free to reach out.
@@ -31,7 +31,7 @@ My flagship project is **Skipy** — a food court ordering platform with real-ti
 - **Payments & E-Commerce:** Stripe API, WooCommerce REST API, WordPress, Order Management Systems
 - **Cloud & DevOps:** Docker, Linux, Apache, SSL/TLS, Git, GitHub, CI/CD, Bash/Shell Scripting
 - **Real-Time:** Flask-SocketIO, WebSockets, Push Notifications, Firebase
-- **AI & LLM Tools:** Claude, GitHub Copilot, ChatGPT, Gemini, Ollama, HuggingFace
+- **AI & LLM Tools:** Claude, GitHub Copilot, ChatGPT, Gemini, Ollama, HuggingFace, Cursor, Windsurf
 - **IDEs & Editors:** VS Code, PyCharm, IntelliJ IDEA, Cursor
 - **Architecture & Design:** REST API Design, System Design, Figma, Responsive Design, Mobile-First UIs
 - **Others:** QR Code Generation, CSV Data Processing, Image Processing (Pillow), Particles.js, Parallax Effects
@@ -109,6 +109,8 @@ My flagship project is **Skipy** — a food court ordering platform with real-ti
 ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white&labelColor=1a1b27)
 ![Ollama](https://img.shields.io/badge/Ollama-FFFFFF?style=for-the-badge&logo=ollama&logoColor=white&labelColor=1a1b27)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black&labelColor=1a1b27)
+![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white&labelColor=1a1b27)
+![Windsurf](https://img.shields.io/badge/Windsurf-1E1E1E?style=for-the-badge&logo=codeium&logoColor=00D1FF&labelColor=1a1b27)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white&labelColor=1a1b27)
 
 </div>

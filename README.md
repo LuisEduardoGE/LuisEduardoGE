@@ -29,7 +29,7 @@ I'm equally comfortable architecting a backend, shaping the UI that consumes it,
 - ✍️ &nbsp; Writing about shipping fast, AI-augmented development, and full-stack architecture
 - 🤝 &nbsp; Open to new roles (EU / remote) and high-leverage technical projects
 
-**Languages I speak:** &nbsp; 🇬🇧 English &nbsp;·&nbsp; 🇧🇷 Português &nbsp;·&nbsp; 🇫🇷 Français
+**Languages I speak:** &nbsp; 🇬🇧 English &nbsp;·&nbsp; 🇧🇷 Português &nbsp;·&nbsp; 🇫🇷 Français &nbsp;·&nbsp; 🇪🇸 Español &nbsp;·&nbsp; 🇳🇱 Nederlands
 
 <br/>
 

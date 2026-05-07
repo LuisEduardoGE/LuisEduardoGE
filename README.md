@@ -131,6 +131,16 @@ Rounded module corners, custom-color palettes, SVG and PNG output, automated Ink
 
 <br/>
 
+###  ▎  Achievements
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=LuisEduardoGE&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=10&margin-h=10" alt="trophies" />
+
+</div>
+
+<br/>
+
 ###  ▎  Contribution Snake
 
 <picture>
@@ -138,6 +148,24 @@ Rounded module corners, custom-color palettes, SVG and PNG output, automated Ink
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LuisEduardoGE/LuisEduardoGE/output/github-contribution-grid-snake.svg" />
   <img alt="snake animation" src="https://raw.githubusercontent.com/LuisEduardoGE/LuisEduardoGE/output/github-contribution-grid-snake.svg" />
 </picture>
+
+<br/>
+
+###  ▎  Activity Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=LuisEduardoGE&bg_color=0d1117&color=3CB371&line=3CB371&point=ffffff&area=true&hide_border=true" alt="activity graph" width="100%" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="dev quote" />
+
+</div>
 
 <br/>
 

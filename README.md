@@ -17,15 +17,30 @@
 
 ###  ▎  About
 
-Backend to frontend, idea to production. I ship real-time products from `git init` to live customers — typically in weeks, not quarters.
+> Backend to frontend, idea to production. I ship real-time products from `git init` to live customers — typically in weeks, not quarters.
 
-```yaml
-currently_building:  Real-time apps with React Native + FastAPI + WebSockets
-ai_native_flow:      Claude · Cursor · Windsurf · GitHub Copilot
-writing_about:       Shipping fast · real-time systems · full-stack architecture
-trilingual:          English · Português · Français
-available_for:       New roles (EU / remote) · high-leverage technical projects
-```
+I optimize for shipping. The stack is React Native and Next.js on the surface, FastAPI and Postgres underneath, with WebSockets and Stripe wherever real-time meets payments. AI-native development (Claude, Cursor, Windsurf, Copilot) is part of my daily workflow — the leverage is how a small team can ship what most teams take six months to deliver.
+
+I'm equally comfortable architecting a backend, shaping the UI that consumes it, and pushing the whole thing to production on a Saturday. The shortest path between *"good enough"* and *"in customers' hands"* is what I optimize for.
+
+**Where my time goes right now:**
+
+- 🚀 &nbsp; Building real-time mobile + web apps with React Native, FastAPI, and WebSockets
+- ✍️ &nbsp; Writing about shipping fast, AI-augmented development, and full-stack architecture
+- 🤝 &nbsp; Open to new roles (EU / remote) and high-leverage technical projects
+
+**Languages I speak:** &nbsp; 🇬🇧 English &nbsp;·&nbsp; 🇧🇷 Português &nbsp;·&nbsp; 🇫🇷 Français
+
+<br/>
+
+###  ▎  How I Build
+
+| | |
+|---|---|
+| 🛠 &nbsp; **Ship-first, polish-second** | A deployed v0 in week 1 beats a perfect v1 in month 3. |
+| 🧠 &nbsp; **AI as a force-multiplier** | Claude, Cursor, and Windsurf in daily flow — without cutting corners. |
+| 📐 &nbsp; **Boring tech, sharp execution** | I pick proven tools and ship faster, not flashier stacks. |
+| 🔄 &nbsp; **Production from day 1** | Real users, real payments, real edge cases — not hello-world demos. |
 
 <br/>
 
@@ -39,25 +54,20 @@ available_for:       New roles (EU / remote) · high-leverage technical projects
 
 <img src="https://skillicons.dev/icons?i=ts,react,nextjs,reactnative,tailwind,vite&theme=dark" />
 
-**Data & Infra**
+**Data & Infrastructure**
 
 <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,docker,linux,nginx&theme=dark" />
 
 </td>
 <td width="50%" valign="top">
 
-**Backend**
+**Backend & APIs**
 
 <img src="https://skillicons.dev/icons?i=python,fastapi,nodejs,flask,php&theme=dark" />
 
-**Tooling & AI**
+**Tooling**
 
 <img src="https://skillicons.dev/icons?i=git,github,vscode,figma&theme=dark" />
-<br/><br/>
-<img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" />
-<img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" />
-<img src="https://img.shields.io/badge/Windsurf-1E1E1E?style=flat-square&logo=codeium&logoColor=00D1FF" />
-<img src="https://img.shields.io/badge/Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white" />
 
 </td>
 </tr>
@@ -72,23 +82,23 @@ available_for:       New roles (EU / remote) · high-leverage technical projects
 <td width="50%" valign="top">
 
 #### 🍽  Skipy
-**Real-time food-court ordering platform — live in Lisbon**
+**Real-time food-court ordering platform**
 
-WebSocket order routing, Stripe payments, multi-store dashboard. Production-deployed and processing real customer orders daily.
+Built end-to-end — backend, mobile, web, deployment. WebSocket order routing across multiple shops, full Stripe checkout with payment intents + webhooks, multi-store admin dashboards, queue management, SMS notifications, and QR-based table service. Production-deployed and processing real customer orders daily.
 
-`Flask` · `FastAPI` · `WebSockets` · `Stripe` · `MySQL` · `React Native`
+`React Native` · `Expo` · `Next.js` · `FastAPI` · `Flask` · `WebSockets` · `Stripe` · `MySQL`
 
-<a href="https://github.com/LuisEduardoGE/Skipy_flask">Backend →</a>  <a href="https://github.com/LuisEduardoGE/Skipy">Landing →</a>
+<a href="https://github.com/LuisEduardoGE/Skipy_flask">Backend →</a> &nbsp;·&nbsp; <a href="https://github.com/LuisEduardoGE/Skipy">Landing →</a>
 
 </td>
 <td width="50%" valign="top">
 
 #### ⚡  FastAPI vs Django REST
-**Hands-on framework comparison**
+**A hands-on comparison for 2026**
 
-Same Todo API built in both frameworks, side-by-side benchmarks, documented learnings.
+Same Todo CRUD API built in both frameworks. Side-by-side performance benchmarks, async-vs-sync analysis, codebase-complexity comparison, and an honest write-up on when each framework wins. The kind of post that compounds for years.
 
-`FastAPI` · `Django` · `Python` · `Benchmarks`
+`FastAPI` · `Django` · `Python` · `Pytest` · `Benchmarks`
 
 <a href="https://github.com/LuisEduardoGE/fastapi-vs-drf-comparison">Repo →</a>
 
@@ -101,19 +111,19 @@ Same Todo API built in both frameworks, side-by-side benchmarks, documented lear
 #### 🏛  CAAB Legal Platform
 **Custom WordPress engine for the Brazilian legal market**
 
-Advanced lawyer-profile modules, search & indexing (~30% improvement), classifieds module — 5,000+ profiles.
+Advanced lawyer-profile modules with custom search & indexing (~30% visibility lift), classifieds engine, plugin architecture, and platform-wide UX upgrades. Powering 5,000+ professional profiles in production since 2023.
 
-`PHP` · `WordPress` · `MySQL` · `JavaScript`
+`PHP` · `WordPress` · `MySQL` · `JavaScript` · `Custom Plugins`
 
 </td>
 <td width="50%" valign="top">
 
 #### 🎨  QR Code Creator
-**Custom QR generator with logo embedding**
+**Production-grade QR generator with logo embedding**
 
-Rounded corners, SVG support, automatic Inkscape/ImageMagick conversion pipeline.
+Rounded module corners, custom-color palettes, SVG and PNG output, automated Inkscape + ImageMagick conversion pipeline. Designed for batch generation at scale with consistent brand output.
 
-`Python` · `Pillow` · `SVG`
+`Python` · `Pillow` · `SVG` · `Inkscape`
 
 <a href="https://github.com/LuisEduardoGE/qr-code-creator">Repo →</a>
 

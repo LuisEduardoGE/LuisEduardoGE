@@ -88,8 +88,6 @@ Built end-to-end — backend, mobile, web, deployment. WebSocket order routing a
 
 `React Native` · `Expo` · `Next.js` · `FastAPI` · `Flask` · `WebSockets` · `Stripe` · `MySQL`
 
-<a href="https://github.com/LuisEduardoGE/Skipy_flask">Backend →</a> &nbsp;·&nbsp; <a href="https://github.com/LuisEduardoGE/Skipy">Landing →</a>
-
 </td>
 <td width="50%" valign="top">
 

@@ -30,6 +30,7 @@ I'm a **full-stack developer** who builds products end to end: the API, the data
 
 - **[backrooms-game](https://github.com/LuisEduardoGE/backrooms-game)**: found-footage horror game in the browser, a procedural Backrooms level seen through a 90s camcorder. **[Play it →](https://luiseduardoge.github.io/backrooms-game/)** · Three.js, TypeScript
 - **[rag-docs-assistant](https://github.com/LuisEduardoGE/rag-docs-assistant)**: question answering over the FastAPI docs with hybrid retrieval (vector + BM25, weighted RRF) and a labelled evaluation harness that measures retrieval quality. · Python, LanceDB, FastAPI
+- **[movie-helper](https://github.com/LuisEduardoGE/movie-helper)**: group movie picker: friends join a room, vote on a TMDB deck, and pairwise and head-to-head rounds narrow it to one winner. · FastAPI, React 19, TypeScript
 - **[primordial](https://github.com/LuisEduardoGE/primordial)**: artificial-life simulation where neural-network particles evolve by selection alone; PyTorch research engine plus a three.js browser viewer. · PyTorch, TypeScript
 - **[marketplace-directory-template](https://github.com/LuisEduardoGE/marketplace-directory-template)**: configurable shop directory for food courts and market halls, from one config file and a CSV. **[Demo →](https://luiseduardoge.github.io/marketplace-directory-template/)** · HTML, CSS, JavaScript
 - **[fastapi-vs-drf-comparison](https://github.com/LuisEduardoGE/fastapi-vs-drf-comparison)**: the same CRUD API built in FastAPI + SQLModel and in Django REST Framework, compared side by side. · Python

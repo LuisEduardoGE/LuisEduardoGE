@@ -1,191 +1,68 @@
-<div align="center">
-
-<a href="https://github.com/LuisEduardoGE">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2800&pause=600&color=3CB371&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;From+idea+to+production;TypeScript+%C2%B7+React+%C2%B7+Python+%C2%B7+FastAPI;Real-time+%C2%B7+WebSockets+%C2%B7+Stripe;Builder+%C2%B7+Shipper" alt="Typing SVG" />
-</a>
-
-###### I build real-time products end-to-end
-
-<a href="https://www.linkedin.com/in/luisgespindola/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:luisedu.ge@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://www.wtechitsolutions.com/"><img src="https://img.shields.io/badge/W--Tech-3CB371?style=for-the-badge&logo=safari&logoColor=white" /></a>
-<a href="https://twitter.com/LuisEduardoGE"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
-
-</div>
-
-<br/>
-
-###  ▎  About
-
-> Backend to frontend, idea to production. I ship real-time products from `git init` to live customers — typically in weeks, not quarters.
-
-I optimize for shipping. The stack is React Native and Next.js on the surface, FastAPI and Postgres underneath, with WebSockets and Stripe wherever real-time meets payments. AI-native development (Claude, Cursor, Windsurf, Copilot) is part of my daily workflow — the leverage is how a small team can ship what most teams take six months to deliver.
-
-I'm equally comfortable architecting a backend, shaping the UI that consumes it, and pushing the whole thing to production on a Saturday. The shortest path between *"good enough"* and *"in customers' hands"* is what I optimize for.
-
-**Where my time goes right now:**
-
-- 🚀 &nbsp; Building real-time mobile + web apps with React Native, FastAPI, and WebSockets
-- ✍️ &nbsp; Writing about shipping fast, AI-augmented development, and full-stack architecture
-- 🤝 &nbsp; Open to new roles (EU / remote) and high-leverage technical projects
-
-**Languages I speak:** &nbsp; 🇬🇧 English &nbsp;·&nbsp; 🇧🇷 Português &nbsp;·&nbsp; 🇫🇷 Français &nbsp;·&nbsp; 🇪🇸 Español &nbsp;·&nbsp; 🇳🇱 Nederlands
-
-<br/>
-
-###  ▎  How I Build
-
-| | |
-|---|---|
-| 🛠 &nbsp; **Ship-first, polish-second** | A deployed v0 in week 1 beats a perfect v1 in month 3. |
-| 🧠 &nbsp; **AI as a force-multiplier** | Claude, Cursor, and Windsurf in daily flow — without cutting corners. |
-| 📐 &nbsp; **Boring tech, sharp execution** | I pick proven tools and ship faster, not flashier stacks. |
-| 🔄 &nbsp; **Production from day 1** | Real users, real payments, real edge cases — not hello-world demos. |
-
-<br/>
-
-###  ▎  Tech Stack
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-**Frontend**
-
-<img src="https://skillicons.dev/icons?i=ts,react,nextjs,reactnative,tailwind,vite&theme=dark" />
-
-**Data & Infrastructure**
-
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,docker,linux,nginx&theme=dark" />
-
-</td>
-<td width="50%" valign="top">
-
-**Backend & APIs**
-
-<img src="https://skillicons.dev/icons?i=python,fastapi,nodejs,flask,php&theme=dark" />
-
-**Tooling**
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,figma&theme=dark" />
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-###  ▎  What I Ship
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-#### 🍽  Skipy
-**Real-time food-court ordering platform**
-
-Built end-to-end — backend, mobile, web, deployment. WebSocket order routing across multiple shops, full Stripe checkout with payment intents + webhooks, multi-store admin dashboards, queue management, SMS notifications, and QR-based table service. Production-deployed and processing real customer orders daily.
-
-`React Native` · `Expo` · `Next.js` · `FastAPI` · `Flask` · `WebSockets` · `Stripe` · `MySQL`
-
-</td>
-<td width="50%" valign="top">
-
-#### ⚡  FastAPI vs Django REST
-**A hands-on comparison for 2026**
-
-Same Todo CRUD API built in both frameworks. Side-by-side performance benchmarks, async-vs-sync analysis, codebase-complexity comparison, and an honest write-up on when each framework wins. The kind of post that compounds for years.
-
-`FastAPI` · `Django` · `Python` · `Pytest` · `Benchmarks`
-
-<a href="https://github.com/LuisEduardoGE/fastapi-vs-drf-comparison">Repo →</a>
-
-</td>
-</tr>
-<tr><td colspan="2"><br/></td></tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🏛  CAAB Legal Platform
-**Custom WordPress engine for the Brazilian legal market**
-
-Advanced lawyer-profile modules with custom search & indexing (~30% visibility lift), classifieds engine, plugin architecture, and platform-wide UX upgrades. Powering 5,000+ professional profiles in production since 2023.
-
-`PHP` · `WordPress` · `MySQL` · `JavaScript` · `Custom Plugins`
-
-</td>
-<td width="50%" valign="top">
-
-#### 🎨  QR Code Creator
-**Production-grade QR generator with logo embedding**
-
-Rounded module corners, custom-color palettes, SVG and PNG output, automated Inkscape + ImageMagick conversion pipeline. Designed for batch generation at scale with consistent brand output.
-
-`Python` · `Pillow` · `SVG` · `Inkscape`
-
-<a href="https://github.com/LuisEduardoGE/qr-code-creator">Repo →</a>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-###  ▎  Achievements
+<img src="assets/banner.svg" alt="Luis Eduardo G. Espindola, Full-Stack Developer" width="100%">
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=LuisEduardoGE&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=10&margin-h=10" alt="trophies" />
+<a href="https://www.linkedin.com/in/luisgespindola/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> <a href="mailto:luisedu.ge@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a> <a href="https://www.wtechitsolutions.com/"><img src="https://img.shields.io/badge/W--Tech_IT_Solutions-3CB371?style=for-the-badge&logo=safari&logoColor=white" alt="W-Tech IT Solutions"></a> <img src="https://img.shields.io/badge/Open_to-EU_%2F_remote_roles-555?style=for-the-badge" alt="Open to EU / remote roles">
 
 </div>
 
-<br/>
+## 👋 About me
 
-###  ▎  Contribution Snake
+I'm a **full-stack developer** who builds products end to end: the API, the data model, the UI, the payments and the deployment. My daily stack is **Python / FastAPI** on the back end and **TypeScript / React / Next.js** on the front end, with MongoDB or Postgres underneath and Stripe wherever money changes hands.
+
+- 🏠 I'm the lead developer of **[House Hunter](https://househunter.immo)**, a real-estate aggregator for the Belgian market, from the scrapers to the billing (2,200+ commits).
+- 🧪 I care about evidence: tests, evaluation harnesses, and numbers before claims (see [rag-docs-assistant](https://github.com/LuisEduardoGE/rag-docs-assistant)).
+- 🤖 I use AI coding tools every day, with the engineering discipline to keep the output correct.
+- 📈 **5,900+ contributions in the last 12 months**, most of them in private product and client repositories.
+- 🌍 I speak English, Portuguese, French, Spanish and Dutch.
+
+## 🚀 Products in production
+
+| Product | What it is | Stack |
+|---|---|---|
+| **[House Hunter](https://househunter.immo)** | Real-estate aggregator for Belgium: scrapes 6 sources into one search, with saved-search email alerts, market history, an admin panel and Stripe subscriptions. | FastAPI · Celery · MongoDB · Next.js 16 · React 19 · Stripe |
+| **[Love Mail](https://lovemail.online)** | Paid digital love letters: the sender picks a tone, adds a song and photos, pays with Stripe, and delivers by email or QR code. | React · Vite · Express · TypeScript · Stripe |
+| **[W-Tech IT Solutions](https://www.wtechitsolutions.com)** | Company website: static, SEO-first Next.js site with structured data, case studies, a blog and a contact form. | Next.js · TypeScript · MongoDB |
+| **Skipy** | Real-time food-court ordering: order sync from WooCommerce, live order push to shops over Socket.IO, push notifications and Stripe payments, with customer and shop-manager apps. | Flask · FastAPI · Socket.IO · Stripe · Firebase · React · Flutter |
+| **CAAB legal platform** | Custom WordPress engine for the Brazilian legal market: lawyer profiles with custom search and indexing, a classifieds engine and plugins, serving 5,000+ professional profiles. | PHP · WordPress · MySQL · JavaScript |
+
+## 🔭 Open-source projects
+
+- **[backrooms-game](https://github.com/LuisEduardoGE/backrooms-game)**: found-footage horror game in the browser, a procedural Backrooms level seen through a 90s camcorder. **[Play it →](https://luiseduardoge.github.io/backrooms-game/)** · Three.js, TypeScript
+- **[rag-docs-assistant](https://github.com/LuisEduardoGE/rag-docs-assistant)**: question answering over the FastAPI docs with hybrid retrieval (vector + BM25, weighted RRF) and a labelled evaluation harness that measures retrieval quality. · Python, LanceDB, FastAPI
+- **[primordial](https://github.com/LuisEduardoGE/primordial)**: artificial-life simulation where neural-network particles evolve by selection alone; PyTorch research engine plus a three.js browser viewer. · PyTorch, TypeScript
+- **[marketplace-directory-template](https://github.com/LuisEduardoGE/marketplace-directory-template)**: configurable shop directory for food courts and market halls, from one config file and a CSV. **[Demo →](https://luiseduardoge.github.io/marketplace-directory-template/)** · HTML, CSS, JavaScript
+- **[fastapi-vs-drf-comparison](https://github.com/LuisEduardoGE/fastapi-vs-drf-comparison)**: the same CRUD API built in FastAPI + SQLModel and in Django REST Framework, compared side by side. · Python
+- **[planetjersey](https://github.com/LuisEduardoGE/planetjersey)**: football-kit storefront with catalog filters, search and a cart drawer. · React, TypeScript, Vite
+- **[qr-code-creator](https://github.com/LuisEduardoGE/qr-code-creator)**: CLI that generates QR codes with a centred logo and rounded corners. · Python, Pillow
+- **[bis2-scraper](https://github.com/LuisEduardoGE/bis2-scraper)**: scrape-to-dashboard pipeline: scrapers upsert into Supabase Postgres on a daily GitHub Actions schedule. · Python, Supabase
+
+## 🛠 Skills
+
+- **Back end:** Python, FastAPI, Flask, Celery, Node.js / Express, REST APIs, WebSockets / Socket.IO, background jobs and scheduling
+- **Front end:** TypeScript, React, Next.js (App Router, SSG / SSR), Vite, Tailwind CSS, shadcn/ui, Three.js
+- **Data:** MongoDB, PostgreSQL, MySQL, SQLite, Supabase, LanceDB, web scraping (requests, BeautifulSoup, Playwright)
+- **Payments and integrations:** Stripe (Checkout, webhooks, subscriptions), OAuth / Google sign-in, email delivery, Firebase
+- **DevOps:** Linux VPS, nginx, systemd, Docker, GitHub Actions, GitHub Pages
+- **Testing:** pytest, Vitest, Playwright, evaluation harnesses for retrieval
+- **AI:** retrieval-augmented generation, embeddings, LLM APIs, AI-assisted development
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,fastapi,flask,nodejs,ts,react,nextjs,tailwind,vite,threejs,mongodb,postgres,mysql,docker,linux,nginx,githubactions,git&theme=dark" alt="Tech stack icons">
+</p>
+
+## 📊 Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LuisEduardoGE/LuisEduardoGE/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LuisEduardoGE/LuisEduardoGE/output/github-contribution-grid-snake.svg" />
-  <img alt="snake animation" src="https://raw.githubusercontent.com/LuisEduardoGE/LuisEduardoGE/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LuisEduardoGE/LuisEduardoGE/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LuisEduardoGE/LuisEduardoGE/output/github-contribution-grid-snake.svg">
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/LuisEduardoGE/LuisEduardoGE/output/github-contribution-grid-snake.svg">
 </picture>
 
-<br/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=LuisEduardoGE&bg_color=0d1117&color=3CB371&line=3CB371&point=ffffff&area=true&hide_border=true" alt="Contribution activity graph" width="100%">
 
-###  ▎  Activity Graph
+## 📫 Get in touch
 
-<div align="center">
+Hiring for a full-stack or back-end role in the EU or remote? Building a product that needs someone to take it from idea to production? Email me at **[luisedu.ge@gmail.com](mailto:luisedu.ge@gmail.com)** or message me on **[LinkedIn](https://www.linkedin.com/in/luisgespindola/)**.
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=LuisEduardoGE&bg_color=0d1117&color=3CB371&line=3CB371&point=ffffff&area=true&hide_border=true" alt="activity graph" width="100%" />
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="dev quote" />
-
-</div>
-
-<br/>
-
-###  ▎  Talk to me if you're —
-
-> 🤝 &nbsp; **Hiring a developer** who can take a feature from *"we want X"* to *"X is in prod"* without 14 meetings
->
-> 🔌 &nbsp; **Building** real-time, payment-driven, or mobile-first products
->
-> 📝 &nbsp; **Curious** how a small team ships what most teams take 6 months to deliver
-
-<div align="center">
-
-**📧 &nbsp; [luisedu.ge@gmail.com](mailto:luisedu.ge@gmail.com)** &nbsp;·&nbsp; I reply within 24h
-
-<br/>
-
-<a href="https://github.com/LuisEduardoGE"><img src="https://komarev.com/ghpvc/?username=LuisEduardoGE&label=Profile%20views&color=3CB371&style=flat" /></a>
-<a href="https://github.com/LuisEduardoGE"><img src="https://img.shields.io/github/followers/LuisEduardoGE?label=Followers&style=social" /></a>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=80&section=footer&reversal=true" width="100%"/>
-
-</div>
+<img src="https://komarev.com/ghpvc/?username=LuisEduardoGE&label=Profile%20views&color=3CB371&style=flat" alt="Profile views">

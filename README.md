@@ -3,6 +3,7 @@
 <p align="center">
 <a href="https://www.linkedin.com/in/luisgespindola/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-linkedin-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/contact-linkedin-light.svg"><img src="assets/contact-linkedin-dark.svg" height="36" alt="LinkedIn"></picture></a>
 <a href="mailto:luisedu.ge@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-email-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/contact-email-light.svg"><img src="assets/contact-email-dark.svg" height="36" alt="Email: luisedu.ge@gmail.com"></picture></a>
+<a href="https://calendly.com/luiseduardoge/30min"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-calendar-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/contact-calendar-light.svg"><img src="assets/contact-calendar-dark.svg" height="36" alt="Book a 30-min call on Calendly"></picture></a>
 <a href="https://wtechitsolutions.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-site-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/contact-site-light.svg"><img src="assets/contact-site-dark.svg" height="36" alt="W-Tech IT Solutions"></picture></a>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-status-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/contact-status-light.svg"><img src="assets/contact-status-dark.svg" height="36" alt="Open to EU and remote roles"></picture>
 </p>
@@ -125,6 +126,6 @@ Play **[backrooms-game](https://luiseduardoge.github.io/backrooms-game/)** in yo
 
 ## 📫 Get in touch
 
-Hiring for a full-stack or back-end role in the EU or remote? Building a product that needs someone to take it from idea to production? Email me at **[luisedu.ge@gmail.com](mailto:luisedu.ge@gmail.com)** or message me on **[LinkedIn](https://www.linkedin.com/in/luisgespindola/)**.
+Hiring for a full-stack or back-end role in the EU or remote? Building a product that needs someone to take it from idea to production? Email me at **[luisedu.ge@gmail.com](mailto:luisedu.ge@gmail.com)**, message me on **[LinkedIn](https://www.linkedin.com/in/luisgespindola/)**, or **[book a 30-minute call](https://calendly.com/luiseduardoge/30min)**.
 
 <img src="https://komarev.com/ghpvc/?username=LuisEduardoGE&label=Profile%20views&color=3CB371&style=flat" alt="Profile views">

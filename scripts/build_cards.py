@@ -282,8 +282,9 @@ ICONS = {
     "linkedin": ("https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/linkedin/linkedin-plain.svg", "#0A66C2"),
     "email": ("https://cdn.jsdelivr.net/npm/@primer/octicons@19.15.0/build/svg/mail-16.svg", None),
     "site": ("https://cdn.jsdelivr.net/npm/@primer/octicons@19.15.0/build/svg/globe-16.svg", None),
+    "calendar": ("https://cdn.jsdelivr.net/npm/@primer/octicons@19.15.0/build/svg/calendar-16.svg", None),
 }
-CONTACTS = [("linkedin", "LinkedIn"), ("email", "luisedu.ge@gmail.com"),
+CONTACTS = [("linkedin", "LinkedIn"), ("email", "luisedu.ge@gmail.com"), ("calendar", "Book a 30-min call"),
             ("site", "W-Tech IT Solutions"), ("status", "Open to EU and remote roles")]
 
 

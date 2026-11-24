@@ -259,7 +259,7 @@ def about_pipeline(theme: str) -> str:
         f'<text x="24" y="34" font-family=\'{SANS}\' font-size="16" font-weight="600" '
         f'fill="{t["title"]}">House Hunter, end to end</text>',
         f'<text x="24" y="54" font-family=\'{SANS}\' font-size="12" fill="{t["muted"]}">'
-        f'Every step from the listing sites to the invoice is mine</text>',
+        f'The layers I lead, from the listing sites to the invoice</text>',
         # the rail that joins the steps: this is a real sequence, data flows top to bottom
         f'<rect x="31" y="{top + 2}" width="2" height="{(len(PIPELINE) - 1) * row_h}" '
         f'fill="{t["rule"]}"/>',

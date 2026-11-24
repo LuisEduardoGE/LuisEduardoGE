@@ -11,11 +11,13 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/about-pipeline-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/about-pipeline-light.svg"><img src="assets/about-pipeline-dark.svg" align="right" width="400" alt="House Hunter, end to end: Collect (scrapers for 6 Belgian listing sites on a Celery schedule), Store (MongoDB), Serve (async FastAPI), Show (Next.js 16 and React 19), Notify (email alerts), Charge (Stripe), Run (nginx and systemd on a Linux VPS)"></picture>
 
-I'm a **full-stack developer** who builds products end to end: the API, the data model, the UI, the payments and the deployment, for 4+ years now. **Python / FastAPI** on the back end, **TypeScript / React / Next.js** on the front end, MongoDB or Postgres underneath.
+**I build web products end to end and keep them running in production.**
 
-I'm the lead developer of **[House Hunter](https://househunter.immo)**, a real-estate search for Belgium, from the scrapers to the billing (2,200+ commits). Most of my 5,900+ contributions last year went into private product and client repositories.
+For 4+ years I've taken products from the first commit to paying customers: the data model, the API, the interface, Stripe billing and the server underneath. I work in **Python** (FastAPI) and **TypeScript** (React, Next.js), on MongoDB or Postgres.
 
-I care about evidence: tests and numbers before claims (see [rag-docs-assistant](https://github.com/LuisEduardoGE/rag-docs-assistant)).
+I'm the lead developer of **[House Hunter](https://househunter.immo)** (2,200+ commits). It checks six Belgian listing sites every day and emails people the homes that match their search. The card shows each layer, from scraper to invoice.
+
+Tests and numbers come before claims: every public repo below runs CI, and [rag-docs-assistant](https://github.com/LuisEduardoGE/rag-docs-assistant) measures its own retrieval quality. Most of my 5,900+ contributions last year went to private repositories, so these are the public part.
 
 <br clear="right">
 

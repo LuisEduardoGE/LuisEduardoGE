@@ -76,37 +76,27 @@ I'm a **full-stack developer** who builds products end to end: the API, the data
 
 ## 💻 My Tech Stack
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,fastapi,flask,nodejs,express,ts,js,react,nextjs,vite,tailwind,threejs,flutter,html,css,mongodb,postgres,mysql,sqlite,redis,supabase,firebase,pytorch,php,wordpress,docker,linux,ubuntu,nginx,githubactions,cloudflare,git,github,vscode,vitest,pnpm,bash&perline=13&theme=dark" alt="Tech stack icons">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/grid-tech-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/grid-tech-light.svg">
+  <img src="assets/grid-tech-dark.svg" alt="Tech stack: Python, FastAPI, Flask, Node.js, Express, TypeScript, JavaScript, React, Next.js, Vite, Tailwind, Three.js, Flutter, HTML5, CSS3, MongoDB, PostgreSQL, MySQL, SQLite, Redis, Firebase, PyTorch, PHP, WordPress, Docker, Linux, Ubuntu, nginx, GitHub Actions, Git, GitHub, VS Code, Vitest, pnpm, Bash" width="820">
+</picture>
 
 ## 🤖 AI & LLM Tools
 
-<p>
-  <img src="https://img.shields.io/badge/Claude-191919?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude">
-  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code">
-  <img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=for-the-badge" alt="ChatGPT">
-  <img src="https://img.shields.io/badge/Codex_CLI-000000?style=for-the-badge" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot">
-  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor">
-  <img src="https://img.shields.io/badge/Windsurf-0B6BFF?style=for-the-badge&logo=windsurf&logoColor=white" alt="Windsurf">
-  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini">
-  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/grid-ai-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/grid-ai-light.svg">
+  <img src="assets/grid-ai-dark.svg" alt="AI tools: Claude, Claude Code, ChatGPT, Codex CLI, GitHub Copilot, Cursor, Windsurf, Gemini, Ollama" width="820">
+</picture>
 
 ## 🧰 Platforms & Tools
 
-<p>
-  <img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" alt="Stripe">
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase">
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare">
-  <img src="https://img.shields.io/badge/Hostinger_VPS-673DE6?style=for-the-badge&logo=hostinger&logoColor=white" alt="Hostinger VPS">
-  <img src="https://img.shields.io/badge/Brevo-0B996E?style=for-the-badge&logo=brevo&logoColor=white" alt="Brevo">
-  <img src="https://img.shields.io/badge/Search_Console-458CF5?style=for-the-badge&logo=googlesearchconsole&logoColor=white" alt="Google Search Console">
-  <img src="https://img.shields.io/badge/Mermaid-FF3670?style=for-the-badge&logo=mermaid&logoColor=white" alt="Mermaid">
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge" alt="Playwright">
-  <img src="https://img.shields.io/badge/Remotion-0B84F3?style=for-the-badge" alt="Remotion">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/grid-platforms-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/grid-platforms-light.svg">
+  <img src="assets/grid-platforms-dark.svg" alt="Platforms: Stripe, Supabase, Cloudflare, Hostinger, Brevo, Google Search Console, Mermaid, Playwright, Remotion" width="820">
+</picture>
 
 ## 📊 Activity
 

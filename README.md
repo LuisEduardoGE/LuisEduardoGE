@@ -125,6 +125,18 @@ Play **[backrooms-game](https://luiseduardoge.github.io/backrooms-game/)** in yo
 
 </details>
 
+## 📝 Where I write and speak
+
+Articles and talks come from real production problems in the products above: payments, deployments, and the tests that should have caught them.
+
+- Dev Community: [dev.to/luiseduardoge](https://dev.to/luiseduardoge)
+- Hashnode: [hashnode.com/@luiseduardoge](https://hashnode.com/@luiseduardoge)
+- LinkedIn articles: [linkedin.com/in/luisgespindola/recent-activity/articles](https://www.linkedin.com/in/luisgespindola/recent-activity/articles/)
+- Presentation slides: [speakerdeck.com/luiseduardoge](https://speakerdeck.com/luiseduardoge)
+- Speaker profile: [sessionize.com/luiseduardoge](https://sessionize.com/luiseduardoge)
+- Book a 30-minute call: [calendly.com/luiseduardoge](https://calendly.com/luiseduardoge/30min)
+- If an article or one of my repos saved you some time: [buymeacoffee.com/luiseduardoge](https://buymeacoffee.com/luiseduardoge) ☕
+
 ## 📫 Get in touch
 
 Hiring for a full-stack or back-end role in the EU or remote? Building a product that needs someone to take it from idea to production? Email me at **[luisedu.ge@gmail.com](mailto:luisedu.ge@gmail.com)**, message me on **[LinkedIn](https://www.linkedin.com/in/luisgespindola/)**, or **[book a 30-minute call](https://calendly.com/luiseduardoge/30min)**.

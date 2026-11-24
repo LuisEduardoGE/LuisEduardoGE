@@ -283,9 +283,10 @@ ICONS = {
     "email": ("https://cdn.jsdelivr.net/npm/@primer/octicons@19.15.0/build/svg/mail-16.svg", None),
     "site": ("https://cdn.jsdelivr.net/npm/@primer/octicons@19.15.0/build/svg/globe-16.svg", None),
     "calendar": ("https://cdn.jsdelivr.net/npm/@primer/octicons@19.15.0/build/svg/calendar-16.svg", None),
+    "coffee": ("https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/buymeacoffee.svg", None),
 }
 CONTACTS = [("linkedin", "LinkedIn"), ("email", "luisedu.ge@gmail.com"), ("calendar", "Book a 30-min call"),
-            ("site", "W-Tech IT Solutions"), ("status", "Open to EU and remote roles")]
+            ("site", "W-Tech IT Solutions"), ("coffee", "Buy me a coffee"), ("status", "Open to EU and remote roles")]
 
 
 def contact_button(key: str, label: str, theme: str) -> str:

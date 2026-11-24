@@ -60,7 +60,21 @@ I'm a **full-stack developer** who builds products end to end: the API, the data
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/LuisEduardoGE/LuisEduardoGE/output/github-contribution-grid-snake.svg">
 </picture>
 
+<details>
+<summary><b>More stats</b> (streak, languages, activity graph)</summary>
+<br>
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=LuisEduardoGE&theme=dark&background=0d1117&ring=3CB371&fire=3CB371&currStreakLabel=3CB371&hide_border=true">
+  <img alt="Contribution streak" src="https://streak-stats.demolab.com/?user=LuisEduardoGE&ring=3CB371&fire=3CB371&currStreakLabel=3CB371&hide_border=true">
+</picture>
+<img alt="Most used languages in public repositories" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LuisEduardoGE&layout=compact&hide=html,css&langs_count=6&bg_color=0d1117&title_color=3CB371&text_color=c9d1d9&hide_border=true">
+</div>
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=LuisEduardoGE&bg_color=0d1117&color=3CB371&line=3CB371&point=ffffff&area=true&hide_border=true" alt="Contribution activity graph" width="100%">
+
+</details>
 
 ## 📫 Get in touch
 

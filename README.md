@@ -11,13 +11,13 @@
 
 ## 👋 About me
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/about-pipeline-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/about-pipeline-light.svg"><img src="assets/about-pipeline-dark.svg" align="right" width="400" alt="House Hunter, end to end: Collect (scrapers for 6 Belgian listing sites on a Celery schedule), Store (MongoDB), Serve (async FastAPI), Show (Next.js 16 and React 19), Notify (email alerts), Charge (Stripe), Run (nginx and systemd on a Linux VPS)"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/about-process-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/about-process-light.svg"><img src="assets/about-process-dark.svg" align="right" width="400" alt="How I work: Understand (start from the user's problem, not from the stack), Model (the data model and the API contract before screens), Build (small changes on a branch, each with its tests), Verify (run it end to end locally before any server sees it), Ship (green CI, then deploy to servers I run myself), Watch (logs, Search Console and real usage after a release), Record (decisions and known issues written down in the repo)"></picture>
 
 **I build web products end to end and keep them running in production.**
 
 For 4+ years I've taken products from the first commit to paying customers: the data model, the API, the interface, Stripe billing and the server underneath. I work in **Python** (FastAPI) and **TypeScript** (React, Next.js), on MongoDB or Postgres.
 
-I'm the lead developer of **[House Hunter](https://househunter.immo)** (2,200+ commits). It checks six Belgian listing sites every day and emails people the homes that match their search. The card shows each layer, from scraper to invoice.
+I'm the lead developer of **[House Hunter](https://househunter.immo)** (2,200+ commits), a Belgian service that emails people the homes matching their search. The card shows how I work on it and on everything else: understand the problem first, test before I trust, and keep a written record of why things are the way they are.
 
 Tests and numbers come before claims: every public repo below runs CI, and [rag-docs-assistant](https://github.com/LuisEduardoGE/rag-docs-assistant) measures its own retrieval quality. Most of my 5,900+ contributions last year went to private repositories, so these are the public part.
 

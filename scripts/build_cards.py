@@ -234,37 +234,37 @@ def repo_card(r: dict, theme: str) -> str:
     return svg_doc(CARD_W, height, "\n".join(body), f'{r["name"]}: {r["desc"]}')
 
 
-# ---------------------------------------------------------------- about: House Hunter, end to end
+# ---------------------------------------------------------------- about: how I work
 
-# What "end to end" means in practice: each step of House Hunter's data flow that I built and run.
-# Facts from house-hunter/docs/ai-context/02-ARCHITECTURE.md.
-PIPELINE = [
-    ("Collect", "Scrapers for 6 Belgian listing sites on a Celery schedule"),
-    ("Store", "MongoDB, one collection per source, Redis as the broker"),
-    ("Serve", "Async FastAPI with cookie-only auth and rate limits"),
-    ("Show", "Next.js 16 and React 19, SEO pages in EN, NL and FR"),
-    ("Notify", "Saved-search email alerts through Brevo"),
-    ("Charge", "Stripe Checkout and webhooks for subscriptions"),
-    ("Run", "nginx and four systemd services on a Linux VPS"),
+# How a piece of work goes from a problem to production, on any product. Each step is a habit with evidence:
+# local-first runs, CI on every public repo, docs/ai-context decision records, Search Console and log reviews.
+PROCESS = [
+    ("Understand", "Start from the user's problem, not from the stack"),
+    ("Model", "The data model and the API contract before screens"),
+    ("Build", "Small changes on a branch, each with its tests"),
+    ("Verify", "Run it end to end locally before any server sees it"),
+    ("Ship", "Green CI, then deploy to servers I run myself"),
+    ("Watch", "Logs, Search Console and real usage after a release"),
+    ("Record", "Decisions and known issues written down in the repo"),
 ]
 
 
-def about_pipeline(theme: str) -> str:
+def about_process(theme: str) -> str:
     t = THEME[theme]
     width, row_h, top = 400, 46, 82
-    height = top + len(PIPELINE) * row_h - 8
+    height = top + len(PROCESS) * row_h - 8
     body = [
         f'<rect x=".5" y=".5" width="{width - 1}" height="{height - 1}" rx="12" '
         f'fill="{t["card"]}" stroke="{t["border"]}"/>',
         f'<text x="24" y="34" font-family=\'{SANS}\' font-size="16" font-weight="600" '
-        f'fill="{t["title"]}">House Hunter, end to end</text>',
+        f'fill="{t["title"]}">How I work</text>',
         f'<text x="24" y="54" font-family=\'{SANS}\' font-size="12" fill="{t["muted"]}">'
-        f'The layers I lead, from the listing sites to the invoice</text>',
-        # the rail that joins the steps: this is a real sequence, data flows top to bottom
-        f'<rect x="31" y="{top + 2}" width="2" height="{(len(PIPELINE) - 1) * row_h}" '
+        f'From a problem to something running in production</text>',
+        # the rail that joins the steps: a real sequence, each step feeds the next
+        f'<rect x="31" y="{top + 2}" width="2" height="{(len(PROCESS) - 1) * row_h}" '
         f'fill="{t["rule"]}"/>',
     ]
-    for i, (step, detail) in enumerate(PIPELINE):
+    for i, (step, detail) in enumerate(PROCESS):
         y = top + i * row_h
         body.append(f'<circle cx="32" cy="{y + 2}" r="6" fill="{t["card"]}" stroke="{t["accent"]}" '
                     f'stroke-width="2"/>')
@@ -272,7 +272,7 @@ def about_pipeline(theme: str) -> str:
                     f'font-weight="600" fill="{t["title"]}">{escape(step)}</text>')
         body.append(f'<text x="52" y="{y + 25}" font-family=\'{SANS}\' font-size="12" '
                     f'fill="{t["muted"]}">{escape(detail)}</text>')
-    label = "House Hunter, end to end: " + "; ".join(f"{s}: {d}" for s, d in PIPELINE)
+    label = "How I work: " + "; ".join(f"{s}: {d}" for s, d in PROCESS)
     return svg_doc(width, height, "\n".join(body), label)
 
 
@@ -376,7 +376,7 @@ def main() -> None:
         for r in REPOS:
             write(f"card-repo-{r['name']}-{theme}.svg", repo_card(r, theme))
     for theme in THEME:
-        write(f"about-pipeline-{theme}.svg", about_pipeline(theme))
+        write(f"about-process-{theme}.svg", about_process(theme))
         for key, label in CONTACTS:
             write(f"contact-{key}-{theme}.svg", contact_button(key, label, theme))
     icons = {key: skill_icon(key) for key, _, _ in ADVANCED + INTERMEDIATE}

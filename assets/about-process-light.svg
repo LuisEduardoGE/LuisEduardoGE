@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="396" viewBox="0 0 400 396" role="img" aria-label="How I work: Understand: Start from the user's problem, not from the stack; Model: The data model and the API contract before screens; Build: Small changes on a branch, each with its tests; Verify: Run it end to end locally before any server sees it; Ship: Green CI, then deploy to servers I run myself; Watch: Logs, Search Console and real usage after a release; Record: Decisions and known issues written down in the repo">
+<rect x=".5" y=".5" width="399" height="395" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<text x="24" y="34" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="16" font-weight="600" fill="#1f2328">How I work</text>
+<text x="24" y="54" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="12" fill="#656d76">From a problem to something running in production</text>
+<rect x="31" y="84" width="2" height="276" fill="#d8dee4"/>
+<circle cx="32" cy="84" r="6" fill="#ffffff" stroke="#1a7f37" stroke-width="2"/>
+<text x="52" y="89" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="14" font-weight="600" fill="#1f2328">Understand</text>
+<text x="52" y="107" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="12" fill="#656d76">Start from the user's problem, not from the stack</text>
+<circle cx="32" cy="130" r="6" fill="#ffffff" stroke="#1a7f37" stroke-width="2"/>
+<text x="52" y="135" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="14" font-weight="600" fill="#1f2328">Model</text>
+<text x="52" y="153" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="12" fill="#656d76">The data model and the API contract before screens</text>
+<circle cx="32" cy="176" r="6" fill="#ffffff" stroke="#1a7f37" stroke-width="2"/>
+<text x="52" y="181" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="14" font-weight="600" fill="#1f2328">Build</text>
+<text x="52" y="199" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="12" fill="#656d76">Small changes on a branch, each with its tests</text>
+<circle cx="32" cy="222" r="6" fill="#ffffff" stroke="#1a7f37" stroke-width="2"/>
+<text x="52" y="227" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="14" font-weight="600" fill="#1f2328">Verify</text>
+<text x="52" y="245" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="12" fill="#656d76">Run it end to end locally before any server sees it</text>
+<circle cx="32" cy="268" r="6" fill="#ffffff" stroke="#1a7f37" stroke-width="2"/>
+<text x="52" y="273" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="14" font-weight="600" fill="#1f2328">Ship</text>
+<text x="52" y="291" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="12" fill="#656d76">Green CI, then deploy to servers I run myself</text>
+<circle cx="32" cy="314" r="6" fill="#ffffff" stroke="#1a7f37" stroke-width="2"/>
+<text x="52" y="319" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="14" font-weight="600" fill="#1f2328">Watch</text>
+<text x="52" y="337" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="12" fill="#656d76">Logs, Search Console and real usage after a release</text>
+<circle cx="32" cy="360" r="6" fill="#ffffff" stroke="#1a7f37" stroke-width="2"/>
+<text x="52" y="365" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="14" font-weight="600" fill="#1f2328">Record</text>
+<text x="52" y="383" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="12" fill="#656d76">Decisions and known issues written down in the repo</text>
+</svg>

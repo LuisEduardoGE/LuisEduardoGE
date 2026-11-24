@@ -21,6 +21,7 @@ SITES = {
     "wtech": "https://wtechitsolutions.com",
     "skipy": "https://skipy.online/en",
     "hiddenbeer": "https://hiddenbeer.com/",
+    "cabinetflow": "https://cabinet-flow.com/",
 }
 # Hide cookie / consent overlays so the screenshot shows the product, not a banner.
 HIDE_OVERLAYS = """

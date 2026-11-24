@@ -110,34 +110,23 @@ PRODUCTS = [
          pitch="Company website: a static, SEO-first Next.js site with structured data, case "
                "studies, a blog and a contact form.",
          stack="Next.js, TypeScript, MongoDB"),
-    dict(slug="caab", name="CAAB legal platform", site="Brazil",
-         pitch="Custom WordPress engine for the Brazilian legal market: lawyer profiles with "
-               "custom search, a classifieds engine and plugins.",
-         stack="PHP, WordPress, MySQL, JavaScript"),
+    dict(slug="cabinetflow", name="CabinetFlow", site="cabinet-flow.com",
+         pitch="Patient management for practitioners in private practice, built around "
+               "professional secrecy. Live site and demo; the clinical platform is pre-launch.",
+         stack="React 19, TypeScript, Vite, Spring Boot, MongoDB"),
 ]
 
 CARD_W, SHOT_H = 400, 200
 
 
 def shot_area(p: dict, uid: str) -> str:
-    """The top 400x200 of a product card: a real screenshot, or a panel when there is none."""
+    """The top 400x200 of a product card: a screenshot of the live site."""
     clip = (f'<clipPath id="{uid}c"><path d="M0 12a12 12 0 0 1 12-12h{CARD_W - 24}'
             f'a12 12 0 0 1 12 12v{SHOT_H - 12}h-{CARD_W}z"/></clipPath>')
-    shot = SHOTS / f"{p['slug']}.jpg"
-    if shot.exists():
-        data = base64.b64encode(shot.read_bytes()).decode()
-        img = (f'<image width="{CARD_W}" height="{SHOT_H}" preserveAspectRatio="xMidYMin slice" '
-               f'href="data:image/jpeg;base64,{data}"/>')
-        return f'<defs>{clip}</defs><g clip-path="url(#{uid}c)">{img}</g>'
-    # No public site to show (CAAB): the one number that says what the platform carries.
-    return (f'<defs>{clip}<linearGradient id="{uid}g" x1="0" y1="0" x2="1" y2="1">'
-            f'<stop offset="0" stop-color="#1c3557"/><stop offset="1" stop-color="#0e1a2b"/>'
-            f'</linearGradient></defs><g clip-path="url(#{uid}c)">'
-            f'<rect width="{CARD_W}" height="{SHOT_H}" fill="url(#{uid}g)"/>'
-            f'<text x="32" y="112" font-family=\'{SANS}\' font-size="54" font-weight="700" '
-            f'fill="#f0f6fc">5,000+</text>'
-            f'<text x="34" y="146" font-family=\'{SANS}\' font-size="17" fill="#b6c6dc">'
-            f'professional profiles served</text></g>')
+    data = base64.b64encode((SHOTS / f"{p['slug']}.jpg").read_bytes()).decode()
+    img = (f'<image width="{CARD_W}" height="{SHOT_H}" preserveAspectRatio="xMidYMin slice" '
+           f'href="data:image/jpeg;base64,{data}"/>')
+    return f'<defs>{clip}</defs><g clip-path="url(#{uid}c)">{img}</g>'
 
 
 def product_card(p: dict, theme: str) -> str:

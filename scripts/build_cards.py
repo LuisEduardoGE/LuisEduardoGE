@@ -312,6 +312,44 @@ def contact_button(key: str, label: str, theme: str) -> str:
     return svg_doc(width, height, "\n".join(body), label)
 
 
+# ---------------------------------------------------------------- where I write and speak
+
+# Same card grammar as the repo cards (two per row at 49%): icon, name in the accent colour, handle, one line.
+# Icons stay monochrome in the theme's title colour so no brand colour fights the green accent.
+WRITING = [
+    dict(slug="devto", name="Dev Community", handle="@luiseduardoge", icon=SIMPLE.format("devdotto"),
+         desc="Hands-on articles, with the code that goes with them"),
+    dict(slug="hashnode", name="Hashnode", handle="@luiseduardoge", icon=SIMPLE.format("hashnode"),
+         desc="Long-form articles on production problems"),
+    dict(slug="linkedin", name="LinkedIn articles", handle="luisgespindola", icon=ICONS["linkedin"][0],
+         desc="Shorter takes for people hiring and building products"),
+    dict(slug="speakerdeck", name="Speaker Deck", handle="luiseduardoge", icon=SIMPLE.format("speakerdeck"),
+         desc="Slides from my talks"),
+    dict(slug="sessionize", name="Sessionize", handle="luiseduardoge", icon=SIMPLE.format("sessionize"),
+         desc="Speaker profile for conference and meetup organisers"),
+    dict(slug="coffee", name="Buy Me a Coffee", handle="luiseduardoge", icon=SIMPLE.format("buymeacoffee"),
+         desc="If an article or one of my repos saved you some time"),
+]
+
+
+def writing_card(w: dict, theme: str) -> str:
+    t = THEME[theme]
+    height = 86
+    handle_x = 56 + text_width(w["name"], 15, "semibold") + 8
+    body = [
+        f'<rect x=".5" y=".5" width="{CARD_W - 1}" height="{height - 1}" rx="10" '
+        f'fill="{t["card"]}" stroke="{t["border"]}"/>',
+        place(fetch(w["icon"]), 20, 17, 24, t["title"]),
+        f'<text x="56" y="35" font-family=\'{SANS}\' font-size="15" font-weight="600" '
+        f'fill="{t["accent"]}">{escape(w["name"])}</text>',
+        f'<text x="{handle_x:.0f}" y="35" font-family=\'{SANS}\' font-size="12" '
+        f'fill="{t["muted"]}">{escape(w["handle"])}</text>',
+        f'<text x="20" y="66" font-family=\'{SANS}\' font-size="13" '
+        f'fill="{t["text"]}">{escape(w["desc"])}</text>',
+    ]
+    return svg_doc(CARD_W, height, "\n".join(body), f'{w["name"]} ({w["handle"]}): {w["desc"]}')
+
+
 # ---------------------------------------------------------------- skills: levels with evidence
 
 ADVANCED = [
@@ -379,6 +417,8 @@ def main() -> None:
         write(f"about-process-{theme}.svg", about_process(theme))
         for key, label in CONTACTS:
             write(f"contact-{key}-{theme}.svg", contact_button(key, label, theme))
+        for w in WRITING:
+            write(f"card-writing-{w['slug']}-{theme}.svg", writing_card(w, theme))
     icons = {key: skill_icon(key) for key, _, _ in ADVANCED + INTERMEDIATE}
     for theme in THEME:
         write(f"skills-advanced-{theme}.svg",

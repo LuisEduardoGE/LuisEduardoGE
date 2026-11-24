@@ -129,16 +129,24 @@ Play **[backrooms-game](https://luiseduardoge.github.io/backrooms-game/)** in yo
 
 Articles and talks come from real production problems in the products above: payments, deployments, and the tests that should have caught them.
 
-- Dev Community: [dev.to/luiseduardoge](https://dev.to/luiseduardoge)
-- Hashnode: [hashnode.com/@luiseduardoge](https://hashnode.com/@luiseduardoge)
-- LinkedIn articles: [linkedin.com/in/luisgespindola/recent-activity/articles](https://www.linkedin.com/in/luisgespindola/recent-activity/articles/)
-- Presentation slides: [speakerdeck.com/luiseduardoge](https://speakerdeck.com/luiseduardoge)
-- Speaker profile: [sessionize.com/luiseduardoge](https://sessionize.com/luiseduardoge)
-- Book a 30-minute call: [calendly.com/luiseduardoge](https://calendly.com/luiseduardoge/30min)
-- If an article or one of my repos saved you some time: [buymeacoffee.com/luiseduardoge](https://buymeacoffee.com/luiseduardoge) ☕
+<p>
+<a href="https://dev.to/luiseduardoge"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-writing-devto-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-writing-devto-light.svg"><img src="assets/card-writing-devto-dark.svg" width="49%" alt="Dev Community (@luiseduardoge): hands-on articles, with the code that goes with them"></picture></a>
+<a href="https://hashnode.com/@luiseduardoge"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-writing-hashnode-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-writing-hashnode-light.svg"><img src="assets/card-writing-hashnode-dark.svg" width="49%" alt="Hashnode (@luiseduardoge): long-form articles on production problems"></picture></a>
+<a href="https://www.linkedin.com/in/luisgespindola/recent-activity/articles/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-writing-linkedin-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-writing-linkedin-light.svg"><img src="assets/card-writing-linkedin-dark.svg" width="49%" alt="LinkedIn articles (luisgespindola): shorter takes for people hiring and building products"></picture></a>
+<a href="https://speakerdeck.com/luiseduardoge"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-writing-speakerdeck-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-writing-speakerdeck-light.svg"><img src="assets/card-writing-speakerdeck-dark.svg" width="49%" alt="Speaker Deck (luiseduardoge): slides from my talks"></picture></a>
+<a href="https://sessionize.com/luiseduardoge"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-writing-sessionize-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-writing-sessionize-light.svg"><img src="assets/card-writing-sessionize-dark.svg" width="49%" alt="Sessionize (luiseduardoge): speaker profile for conference and meetup organisers"></picture></a>
+<a href="https://buymeacoffee.com/luiseduardoge"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-writing-coffee-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-writing-coffee-light.svg"><img src="assets/card-writing-coffee-dark.svg" width="49%" alt="Buy Me a Coffee (luiseduardoge): if an article or one of my repos saved you some time"></picture></a>
+</p>
 
 ## 📫 Get in touch
 
 Hiring for a full-stack or back-end role in the EU or remote? Building a product that needs someone to take it from idea to production? Email me at **[luisedu.ge@gmail.com](mailto:luisedu.ge@gmail.com)**, message me on **[LinkedIn](https://www.linkedin.com/in/luisgespindola/)**, or **[book a 30-minute call](https://calendly.com/luiseduardoge/30min)**.
 
-<img src="https://komarev.com/ghpvc/?username=LuisEduardoGE&label=Profile%20views&color=3CB371&style=flat" alt="Profile views">
+<p align="center">
+<a href="https://www.linkedin.com/in/luisgespindola/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-linkedin-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/contact-linkedin-light.svg"><img src="assets/contact-linkedin-dark.svg" height="36" alt="LinkedIn"></picture></a>
+<a href="mailto:luisedu.ge@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-email-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/contact-email-light.svg"><img src="assets/contact-email-dark.svg" height="36" alt="Email: luisedu.ge@gmail.com"></picture></a>
+<a href="https://calendly.com/luiseduardoge/30min"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-calendar-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/contact-calendar-light.svg"><img src="assets/contact-calendar-dark.svg" height="36" alt="Book a 30-min call on Calendly"></picture></a>
+<a href="https://buymeacoffee.com/luiseduardoge"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-coffee-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/contact-coffee-light.svg"><img src="assets/contact-coffee-dark.svg" height="36" alt="Buy me a coffee"></picture></a>
+</p>
+
+<p align="center"><img src="https://komarev.com/ghpvc/?username=LuisEduardoGE&label=Profile%20views&color=3CB371&style=flat" alt="Profile views"></p>

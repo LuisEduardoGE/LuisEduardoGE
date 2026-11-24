@@ -5,7 +5,7 @@ references) in a dark and a light variant, so GitHub can serve it through its im
 and the README can switch with <picture> and prefers-color-scheme.
 
     python scripts/capture_shots.py     # refresh the product screenshots (optional)
-    python scripts/build_cards.py       # writes assets/card-*.svg, assets/about-code.svg,
+    python scripts/build_cards.py       # writes assets/card-*.svg, about-*, contact-*,
                                         # assets/skills-*.svg
 
 Text is wrapped by measuring it with Segoe UI (Windows fonts), with a safety margin for
@@ -15,7 +15,6 @@ the wider system fonts other viewers get.
 from __future__ import annotations
 
 import base64
-import re
 from pathlib import Path
 from xml.dom import minidom
 from xml.sax.saxutils import escape
@@ -235,52 +234,80 @@ def repo_card(r: dict, theme: str) -> str:
     return svg_doc(CARD_W, height, "\n".join(body), f'{r["name"]}: {r["desc"]}')
 
 
-# ---------------------------------------------------------------- about: code window
+# ---------------------------------------------------------------- about: House Hunter, end to end
 
-CODE = [
-    'class Luis(Developer):',
-    '    role = "full-stack, lead developer"',
-    '    experience = "4+ years"',
-    '    based_in = "Belgium"',
-    '    speaks = ["en", "pt", "fr", "es", "nl"]',
-    '',
-    '    api = ["Python", "FastAPI", "Celery"]',
-    '    web = ["TypeScript", "React", "Next.js"]',
-    '    data = ["MongoDB", "Postgres", "Redis"]',
-    '',
-    '    products_in_production = 6',
-    '    contributions_last_year = 5_900',
+# What "end to end" means in practice: each step of House Hunter's data flow that I built and run.
+# Facts from house-hunter/docs/ai-context/02-ARCHITECTURE.md.
+PIPELINE = [
+    ("Collect", "Scrapers for 6 Belgian listing sites on a Celery schedule"),
+    ("Store", "MongoDB, one collection per source, Redis as the broker"),
+    ("Serve", "Async FastAPI with cookie-only auth and rate limits"),
+    ("Show", "Next.js 16 and React 19, SEO pages in EN, NL and FR"),
+    ("Notify", "Saved-search email alerts through Brevo"),
+    ("Charge", "Stripe Checkout and webhooks for subscriptions"),
+    ("Run", "nginx and four systemd services on a Linux VPS"),
 ]
-TOKEN = re.compile(r'(?P<str>"[^"]*")|(?P<num>\b\d[\d_]*\b)|(?P<kw>\bclass\b)|'
-                   r'(?P<cls>\bLuis\b)|(?P<base>\bDeveloper\b)|(?P<name>\b[a-z_]+\b(?= =))|'
-                   r'(?P<other>.)')
-CODE_COLOR = dict(str="#a5d6ff", num="#79c0ff", kw="#ff7b72", cls="#d2a8ff", base="#7ee2a8",
-                  name="#ffa657", other="#c9d1d9")
 
 
-def about_code() -> str:
-    width, line_h, top = 400, 21, 66
-    height = top + len(CODE) * line_h + 10
+def about_pipeline(theme: str) -> str:
+    t = THEME[theme]
+    width, row_h, top = 400, 46, 82
+    height = top + len(PIPELINE) * row_h - 8
     body = [
-        f'<rect x=".5" y=".5" width="{width - 1}" height="{height - 1}" rx="12" fill="#0d1117" '
-        f'stroke="#30363d"/>',
-        '<circle cx="22" cy="20" r="5.5" fill="#ff5f57"/><circle cx="40" cy="20" r="5.5" '
-        'fill="#febc2e"/><circle cx="58" cy="20" r="5.5" fill="#28c840"/>',
-        f'<text x="{width / 2}" y="24" text-anchor="middle" font-family=\'{SANS}\' font-size="12" '
-        f'fill="#8b949e">luis.py</text>',
-        f'<rect y="39" width="{width}" height="1" fill="#21262d"/>',
+        f'<rect x=".5" y=".5" width="{width - 1}" height="{height - 1}" rx="12" '
+        f'fill="{t["card"]}" stroke="{t["border"]}"/>',
+        f'<text x="24" y="34" font-family=\'{SANS}\' font-size="16" font-weight="600" '
+        f'fill="{t["title"]}">House Hunter, end to end</text>',
+        f'<text x="24" y="54" font-family=\'{SANS}\' font-size="12" fill="{t["muted"]}">'
+        f'Every step from the listing sites to the invoice is mine</text>',
+        # the rail that joins the steps: this is a real sequence, data flows top to bottom
+        f'<rect x="31" y="{top + 2}" width="2" height="{(len(PIPELINE) - 1) * row_h}" '
+        f'fill="{t["rule"]}"/>',
     ]
-    for i, line in enumerate(CODE):
-        spans = []
-        for m in TOKEN.finditer(line):
-            kind = m.lastgroup
-            spans.append(f'<tspan fill="{CODE_COLOR[kind]}">{escape(m.group())}</tspan>')
-        body.append(f'<text x="22" y="{top + i * line_h}" xml:space="preserve" '
-                    f'font-family=\'{MONO}\' font-size="13">{"".join(spans)}</text>')
-    return svg_doc(width, height, "\n".join(body),
-                   "luis.py: full-stack and lead developer, 4+ years, based in Belgium; Python, "
-                   "FastAPI, TypeScript, React, Next.js, MongoDB, Postgres; 6 products in "
-                   "production; 5,900+ contributions last year")
+    for i, (step, detail) in enumerate(PIPELINE):
+        y = top + i * row_h
+        body.append(f'<circle cx="32" cy="{y + 2}" r="6" fill="{t["card"]}" stroke="{t["accent"]}" '
+                    f'stroke-width="2"/>')
+        body.append(f'<text x="52" y="{y + 7}" font-family=\'{SANS}\' font-size="14" '
+                    f'font-weight="600" fill="{t["title"]}">{escape(step)}</text>')
+        body.append(f'<text x="52" y="{y + 25}" font-family=\'{SANS}\' font-size="12" '
+                    f'fill="{t["muted"]}">{escape(detail)}</text>')
+    label = "House Hunter, end to end: " + "; ".join(f"{s}: {d}" for s, d in PIPELINE)
+    return svg_doc(width, height, "\n".join(body), label)
+
+
+# ---------------------------------------------------------------- contact buttons
+
+ICONS = {
+    "linkedin": ("https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/linkedin/linkedin-plain.svg", "#0A66C2"),
+    "email": ("https://cdn.jsdelivr.net/npm/@primer/octicons@19.15.0/build/svg/mail-16.svg", None),
+    "site": ("https://cdn.jsdelivr.net/npm/@primer/octicons@19.15.0/build/svg/globe-16.svg", None),
+}
+CONTACTS = [("linkedin", "LinkedIn"), ("email", "luisedu.ge@gmail.com"),
+            ("site", "W-Tech IT Solutions"), ("status", "Open to EU and remote roles")]
+
+
+def contact_button(key: str, label: str, theme: str) -> str:
+    t = THEME[theme]
+    height, pad, icon = 36, 14, 16
+    width = round(pad + icon + 9 + text_width(label, 13, "semibold") + pad)
+    body = [f'<rect x=".5" y=".5" width="{width - 1}" height="{height - 1}" rx="18" '
+            f'fill="{t["card"]}" stroke="{t["border"]}"/>']
+    if key == "status":
+        # The one moving thing on the page: a slow pulse on the availability dot.
+        body.insert(0, '<style>.pulse{transform-box:fill-box;transform-origin:center;'
+                       'animation:pulse 2.4s ease-out infinite}'
+                       '@keyframes pulse{from{transform:scale(1);opacity:.55}'
+                       'to{transform:scale(2.6);opacity:0}}'
+                       '@media (prefers-reduced-motion:reduce){.pulse{animation:none;opacity:0}}</style>')
+        body.append(f'<circle class="pulse" cx="{pad + 8}" cy="18" r="4.5" fill="#3cb371"/>')
+        body.append(f'<circle cx="{pad + 8}" cy="18" r="4.5" fill="#3cb371"/>')
+    else:
+        url, colour = ICONS[key]
+        body.append(place(fetch(url), pad, 10, icon, colour or t["text"]))
+    body.append(f'<text x="{pad + icon + 9}" y="23" font-family=\'{SANS}\' font-size="13" '
+                f'font-weight="600" fill="{t["title"]}">{escape(label)}</text>')
+    return svg_doc(width, height, "\n".join(body), label)
 
 
 # ---------------------------------------------------------------- skills: levels with evidence
@@ -346,7 +373,10 @@ def main() -> None:
             write(f"card-product-{p['slug']}-{theme}.svg", product_card(p, theme))
         for r in REPOS:
             write(f"card-repo-{r['name']}-{theme}.svg", repo_card(r, theme))
-    write("about-code.svg", about_code())
+    for theme in THEME:
+        write(f"about-pipeline-{theme}.svg", about_pipeline(theme))
+        for key, label in CONTACTS:
+            write(f"contact-{key}-{theme}.svg", contact_button(key, label, theme))
     icons = {key: skill_icon(key) for key, _, _ in ADVANCED + INTERMEDIATE}
     for theme in THEME:
         write(f"skills-advanced-{theme}.svg",

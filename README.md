@@ -1,18 +1,19 @@
 <img src="assets/banner.svg" alt="Luis Eduardo G. Espindola, Full-Stack Developer" width="100%">
 
-<div align="center">
-
-<a href="https://www.linkedin.com/in/luisgespindola/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> <a href="mailto:luisedu.ge@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a> <a href="https://wtechitsolutions.com/"><img src="https://img.shields.io/badge/W--Tech_IT_Solutions-3CB371?style=for-the-badge&logo=safari&logoColor=white" alt="W-Tech IT Solutions"></a> <img src="https://img.shields.io/badge/Open_to-EU_%2F_remote_roles-555?style=for-the-badge" alt="Open to EU / remote roles">
-
-</div>
+<p align="center">
+<a href="https://www.linkedin.com/in/luisgespindola/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-linkedin-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/contact-linkedin-light.svg"><img src="assets/contact-linkedin-dark.svg" height="36" alt="LinkedIn"></picture></a>
+<a href="mailto:luisedu.ge@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-email-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/contact-email-light.svg"><img src="assets/contact-email-dark.svg" height="36" alt="Email: luisedu.ge@gmail.com"></picture></a>
+<a href="https://wtechitsolutions.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-site-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/contact-site-light.svg"><img src="assets/contact-site-dark.svg" height="36" alt="W-Tech IT Solutions"></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-status-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/contact-status-light.svg"><img src="assets/contact-status-dark.svg" height="36" alt="Open to EU and remote roles"></picture>
+</p>
 
 ## 👋 About me
 
-<img src="assets/about-code.svg" align="right" width="400" alt="luis.py: full-stack and lead developer, 4+ years, based in Belgium, speaks English, Portuguese, French, Spanish and Dutch; Python, FastAPI, TypeScript, React, Next.js, MongoDB, Postgres; 6 products in production; 5,900+ contributions last year">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/about-pipeline-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/about-pipeline-light.svg"><img src="assets/about-pipeline-dark.svg" align="right" width="400" alt="House Hunter, end to end: Collect (scrapers for 6 Belgian listing sites on a Celery schedule), Store (MongoDB), Serve (async FastAPI), Show (Next.js 16 and React 19), Notify (email alerts), Charge (Stripe), Run (nginx and systemd on a Linux VPS)"></picture>
 
-I'm a **full-stack developer** who builds products end to end: the API, the data model, the UI, the payments and the deployment. **Python / FastAPI** on the back end, **TypeScript / React / Next.js** on the front end, MongoDB or Postgres underneath.
+I'm a **full-stack developer** who builds products end to end: the API, the data model, the UI, the payments and the deployment, for 4+ years now. **Python / FastAPI** on the back end, **TypeScript / React / Next.js** on the front end, MongoDB or Postgres underneath.
 
-I'm the lead developer of **[House Hunter](https://househunter.immo)**, a real-estate search for Belgium, from the scrapers to the billing (2,200+ commits). Most of my work lives in private product and client repositories.
+I'm the lead developer of **[House Hunter](https://househunter.immo)**, a real-estate search for Belgium, from the scrapers to the billing (2,200+ commits). Most of my 5,900+ contributions last year went into private product and client repositories.
 
 I care about evidence: tests and numbers before claims (see [rag-docs-assistant](https://github.com/LuisEduardoGE/rag-docs-assistant)).
 

@@ -2,45 +2,60 @@
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/luisgespindola/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> <a href="mailto:luisedu.ge@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a> <a href="https://www.wtechitsolutions.com/"><img src="https://img.shields.io/badge/W--Tech_IT_Solutions-3CB371?style=for-the-badge&logo=safari&logoColor=white" alt="W-Tech IT Solutions"></a> <img src="https://img.shields.io/badge/Open_to-EU_%2F_remote_roles-555?style=for-the-badge" alt="Open to EU / remote roles">
+<a href="https://www.linkedin.com/in/luisgespindola/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> <a href="mailto:luisedu.ge@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a> <a href="https://wtechitsolutions.com/"><img src="https://img.shields.io/badge/W--Tech_IT_Solutions-3CB371?style=for-the-badge&logo=safari&logoColor=white" alt="W-Tech IT Solutions"></a> <img src="https://img.shields.io/badge/Open_to-EU_%2F_remote_roles-555?style=for-the-badge" alt="Open to EU / remote roles">
 
 </div>
 
 ## 👋 About me
 
-I'm a **full-stack developer** who builds products end to end: the API, the data model, the UI, the payments and the deployment. My daily stack is **Python / FastAPI** on the back end and **TypeScript / React / Next.js** on the front end, with MongoDB or Postgres underneath and Stripe wherever money changes hands.
+<img src="assets/about-code.svg" align="right" width="400" alt="luis.py: full-stack and lead developer, 4+ years, based in Belgium, speaks English, Portuguese, French, Spanish and Dutch; Python, FastAPI, TypeScript, React, Next.js, MongoDB, Postgres; 6 products in production; 5,900+ contributions last year">
 
-- 🏠 I'm the lead developer of **[House Hunter](https://househunter.immo)**, a real-estate aggregator for the Belgian market, from the scrapers to the billing (2,200+ commits).
-- 🧪 I care about evidence: tests, evaluation harnesses, and numbers before claims (see [rag-docs-assistant](https://github.com/LuisEduardoGE/rag-docs-assistant)).
-- 🤖 I use AI coding tools every day, with the engineering discipline to keep the output correct.
-- 📈 **5,900+ contributions in the last 12 months**, most of them in private product and client repositories.
-- 🌍 I speak English, Portuguese, French, Spanish and Dutch.
+I'm a **full-stack developer** who builds products end to end: the API, the data model, the UI, the payments and the deployment. **Python / FastAPI** on the back end, **TypeScript / React / Next.js** on the front end, MongoDB or Postgres underneath.
+
+I'm the lead developer of **[House Hunter](https://househunter.immo)**, a real-estate search for Belgium, from the scrapers to the billing (2,200+ commits). Most of my work lives in private product and client repositories.
+
+I care about evidence: tests and numbers before claims (see [rag-docs-assistant](https://github.com/LuisEduardoGE/rag-docs-assistant)).
+
+<br clear="right">
 
 ## 🚀 Products in production
 
-| Product | What it is | Stack |
-|---|---|---|
-| **[House Hunter](https://househunter.immo)** | Real-estate aggregator for Belgium: scrapes 6 sources into one search, with saved-search email alerts, market history, an admin panel and Stripe subscriptions. | FastAPI · Celery · MongoDB · Next.js 16 · React 19 · Stripe |
-| **[Love Mail](https://lovemail.online)** | Paid digital love letters: the sender picks a tone, adds a song and photos, pays with Stripe, and delivers by email or QR code. | React · Vite · Express · TypeScript · Stripe |
-| **[W-Tech IT Solutions](https://www.wtechitsolutions.com)** | Company website: static, SEO-first Next.js site with structured data, case studies, a blog and a contact form. | Next.js · TypeScript · MongoDB |
-| **[Skipy](https://skipy.online/en)** | Online storefront and skip-the-line ordering for cafés, restaurants and small shops: one link or QR code becomes a store where customers order and pay from their phone, with a manager app, an admin portal and live order updates. Runs in Belgium and Brazil. | FastAPI · MongoDB · Celery · Next.js · Expo · Stripe |
-| **[HiddenBeer](https://hiddenbeer.com/)** | Geo-based "first beer free" offers at bars in Brussels: users find nearby offers on a map, sign in with a one-time code, claim a reservation and redeem it with a signed QR code scanned by the bar. Includes a bar-owner portal and an admin dashboard; runs in Belgium and Brazil. | FastAPI · MongoDB (geospatial) · Next.js 15 · Leaflet · Docker |
-| **CAAB legal platform** | Custom WordPress engine for the Brazilian legal market: lawyer profiles with custom search and indexing, a classifieds engine and plugins, serving 5,000+ professional profiles. | PHP · WordPress · MySQL · JavaScript |
+<p>
+<a href="https://househunter.immo"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-product-househunter-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-product-househunter-light.svg"><img src="assets/card-product-househunter-dark.svg" width="49%" alt="House Hunter: Real-estate search for Belgium: six listing sites in one search, saved-search email alerts, market history and Stripe subscriptions. Stack: FastAPI, Celery, MongoDB, Next.js 16, Stripe."></picture></a>
+<a href="https://skipy.online/en"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-product-skipy-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-product-skipy-light.svg"><img src="assets/card-product-skipy-dark.svg" width="49%" alt="Skipy: Online store and skip-the-line ordering for cafés and small shops: customers order and pay from their phone. Live in Belgium and Brazil. Stack: FastAPI, MongoDB, Celery, Next.js, Expo, Stripe."></picture></a>
+<a href="https://hiddenbeer.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-product-hiddenbeer-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-product-hiddenbeer-light.svg"><img src="assets/card-product-hiddenbeer-dark.svg" width="49%" alt="HiddenBeer: First-beer-free offers at Brussels bars: find one on the map, sign in with a one-time code, redeem with a signed QR code. Stack: FastAPI, MongoDB geospatial, Next.js 15, Leaflet, Docker."></picture></a>
+<a href="https://lovemail.online"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-product-lovemail-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-product-lovemail-light.svg"><img src="assets/card-product-lovemail-dark.svg" width="49%" alt="Love Mail: Paid digital love letters: pick a tone, add a song and photos, pay with Stripe and deliver by email or QR code. Stack: React, Vite, Express, TypeScript, Stripe."></picture></a>
+<a href="https://wtechitsolutions.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-product-wtech-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-product-wtech-light.svg"><img src="assets/card-product-wtech-dark.svg" width="49%" alt="W-Tech IT Solutions: Company website: a static, SEO-first Next.js site with structured data, case studies, a blog and a contact form. Stack: Next.js, TypeScript, MongoDB."></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-product-caab-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-product-caab-light.svg"><img src="assets/card-product-caab-dark.svg" width="49%" alt="CAAB legal platform: Custom WordPress engine for the Brazilian legal market: lawyer profiles with custom search, a classifieds engine and plugins. Stack: PHP, WordPress, MySQL, JavaScript."></picture>
+</p>
 
 ## 🔭 Open-source projects
 
-- **[backrooms-game](https://github.com/LuisEduardoGE/backrooms-game)**: found-footage horror game in the browser, a procedural Backrooms level seen through a 90s camcorder. **[Play it →](https://luiseduardoge.github.io/backrooms-game/)** · Three.js, TypeScript
-- **[rag-docs-assistant](https://github.com/LuisEduardoGE/rag-docs-assistant)**: question answering over the FastAPI docs with hybrid retrieval (vector + BM25, weighted RRF) and a labelled evaluation harness that measures retrieval quality. · Python, LanceDB, FastAPI
-- **[fastapi-stripe-webhooks](https://github.com/LuisEduardoGE/fastapi-stripe-webhooks)**: Stripe webhooks that survive production: raw-body signature checks, idempotency by event ID, out-of-order safety and the `StripeObject.get()` pitfall that once kept a paying customer on the free plan. · FastAPI, Stripe, pytest
-- **[movie-helper](https://github.com/LuisEduardoGE/movie-helper)**: group movie picker: friends join a room, vote on a TMDB deck, and pairwise and head-to-head rounds narrow it to one winner. · FastAPI, React 19, TypeScript
-- **[primordial](https://github.com/LuisEduardoGE/primordial)**: artificial-life simulation where neural-network particles evolve by selection alone; PyTorch research engine plus a three.js browser viewer. · PyTorch, TypeScript
-- **[marketplace-directory-template](https://github.com/LuisEduardoGE/marketplace-directory-template)**: configurable shop directory for food courts and market halls, from one config file and a CSV. **[Demo →](https://luiseduardoge.github.io/marketplace-directory-template/)** · HTML, CSS, JavaScript
-- **[fastapi-vs-drf-comparison](https://github.com/LuisEduardoGE/fastapi-vs-drf-comparison)**: the same CRUD API built in FastAPI + SQLModel and in Django REST Framework, compared side by side. · Python
-- **[planetjersey](https://github.com/LuisEduardoGE/planetjersey)**: football-kit storefront with catalog filters, search and a cart drawer. · React, TypeScript, Vite
-- **[qr-code-creator](https://github.com/LuisEduardoGE/qr-code-creator)**: CLI that generates QR codes with a centred logo and rounded corners. · Python, Pillow
-- **[bis2-scraper](https://github.com/LuisEduardoGE/bis2-scraper)**: scrape-to-dashboard pipeline: scrapers upsert into Supabase Postgres on a daily GitHub Actions schedule. · Python, Supabase
+<p>
+<a href="https://github.com/LuisEduardoGE/backrooms-game"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-repo-backrooms-game-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-repo-backrooms-game-light.svg"><img src="assets/card-repo-backrooms-game-dark.svg" width="49%" alt="backrooms-game: Found-footage horror game in the browser: a procedural Backrooms level seen through a 90s camcorder."></picture></a>
+<a href="https://github.com/LuisEduardoGE/rag-docs-assistant"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-repo-rag-docs-assistant-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-repo-rag-docs-assistant-light.svg"><img src="assets/card-repo-rag-docs-assistant-dark.svg" width="49%" alt="rag-docs-assistant: Question answering over the FastAPI docs with hybrid retrieval (vector + BM25) and an evaluation harness that measures it."></picture></a>
+<a href="https://github.com/LuisEduardoGE/fastapi-stripe-webhooks"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-repo-fastapi-stripe-webhooks-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-repo-fastapi-stripe-webhooks-light.svg"><img src="assets/card-repo-fastapi-stripe-webhooks-dark.svg" width="49%" alt="fastapi-stripe-webhooks: Stripe webhooks that survive production: signature checks, idempotency, out-of-order events and the StripeObject.get() pitfall."></picture></a>
+<a href="https://github.com/LuisEduardoGE/movie-helper"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-repo-movie-helper-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-repo-movie-helper-light.svg"><img src="assets/card-repo-movie-helper-dark.svg" width="49%" alt="movie-helper: Group movie picker: friends join a room, vote on a TMDB deck, and head-to-head rounds narrow it to one winner."></picture></a>
+<a href="https://github.com/LuisEduardoGE/primordial"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-repo-primordial-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-repo-primordial-light.svg"><img src="assets/card-repo-primordial-dark.svg" width="49%" alt="primordial: Artificial-life simulation: neural-network particles evolve by selection alone, with a PyTorch engine and a browser viewer."></picture></a>
+<a href="https://github.com/LuisEduardoGE/marketplace-directory-template"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-repo-marketplace-directory-template-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-repo-marketplace-directory-template-light.svg"><img src="assets/card-repo-marketplace-directory-template-dark.svg" width="49%" alt="marketplace-directory-template: Shop directory for food courts and market halls, configured from one file and a CSV. No build step."></picture></a>
+<a href="https://github.com/LuisEduardoGE/fastapi-vs-drf-comparison"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-repo-fastapi-vs-drf-comparison-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-repo-fastapi-vs-drf-comparison-light.svg"><img src="assets/card-repo-fastapi-vs-drf-comparison-dark.svg" width="49%" alt="fastapi-vs-drf-comparison: The same CRUD API built in FastAPI + SQLModel and in Django REST Framework, compared side by side."></picture></a>
+<a href="https://github.com/LuisEduardoGE/planetjersey"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-repo-planetjersey-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-repo-planetjersey-light.svg"><img src="assets/card-repo-planetjersey-dark.svg" width="49%" alt="planetjersey: Football-kit storefront with catalog filters, search and a cart drawer."></picture></a>
+<a href="https://github.com/LuisEduardoGE/qr-code-creator"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-repo-qr-code-creator-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-repo-qr-code-creator-light.svg"><img src="assets/card-repo-qr-code-creator-dark.svg" width="49%" alt="qr-code-creator: Command-line tool that generates QR codes with a centred logo and rounded corners, tested by decoding the output."></picture></a>
+<a href="https://github.com/LuisEduardoGE/bis2-scraper"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-repo-bis2-scraper-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-repo-bis2-scraper-light.svg"><img src="assets/card-repo-bis2-scraper-dark.svg" width="49%" alt="bis2-scraper: Scrape-to-dashboard pipeline: scrapers upsert into Supabase Postgres on a daily GitHub Actions schedule."></picture></a>
+</p>
+
+Play **[backrooms-game](https://luiseduardoge.github.io/backrooms-game/)** in your browser, or open the **[marketplace directory demo](https://luiseduardoge.github.io/marketplace-directory-template/)**.
 
 ## 🛠 Skills
+
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/skills-advanced-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/skills-advanced-light.svg"><img src="assets/skills-advanced-dark.svg" width="49%" alt="Advanced skills"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/skills-intermediate-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/skills-intermediate-light.svg"><img src="assets/skills-intermediate-dark.svg" width="49%" alt="Intermediate skills"></picture>
+</p>
+
+<details>
+<summary><b>Full skills list</b> (12 areas)</summary>
+<br>
 
 - **Back end:** Python, FastAPI, Pydantic, Flask, Celery, APScheduler, Node.js / Express, REST APIs, WebSockets / Socket.IO, background jobs and scheduling
 - **Front end:** TypeScript, JavaScript, React, Next.js (App Router, SSG / SSR), Vite, Tailwind CSS, shadcn/ui, TanStack Query, Three.js, Leaflet maps
@@ -55,24 +70,7 @@ I'm a **full-stack developer** who builds products end to end: the API, the data
 - **CMS:** WordPress, PHP (custom plugins and search)
 - **Practices:** Git, code review, CI on every repo, Makefiles, Mermaid architecture docs, SEO (structured data, Search Console)
 
-<p>
-  <img src="https://img.shields.io/badge/Experience-4%2B_years-3CB371?style=flat" alt="Experience: 4+ years">
-  <img src="https://img.shields.io/badge/Role-Full--Stack_Developer-0A66C2?style=flat" alt="Role: Full-Stack Developer">
-  <img src="https://img.shields.io/badge/Role-Lead_Developer-8250DF?style=flat" alt="Role: Lead Developer">
-  <img src="https://img.shields.io/badge/Products_in_production-6-E8590C?style=flat" alt="Products in production: 6">
-  <img src="https://img.shields.io/badge/Python-Advanced-8250DF?style=flat" alt="Python: Advanced">
-  <img src="https://img.shields.io/badge/FastAPI-Advanced-8250DF?style=flat" alt="FastAPI: Advanced">
-  <img src="https://img.shields.io/badge/TypeScript-Advanced-8250DF?style=flat" alt="TypeScript: Advanced">
-  <img src="https://img.shields.io/badge/React-Advanced-8250DF?style=flat" alt="React: Advanced">
-  <img src="https://img.shields.io/badge/Next.js-Advanced-8250DF?style=flat" alt="Next.js: Advanced">
-  <img src="https://img.shields.io/badge/MongoDB-Advanced-8250DF?style=flat" alt="MongoDB: Advanced">
-  <img src="https://img.shields.io/badge/PostgreSQL-Intermediate-1F6FEB?style=flat" alt="PostgreSQL: Intermediate">
-  <img src="https://img.shields.io/badge/Docker-Intermediate-1F6FEB?style=flat" alt="Docker: Intermediate">
-  <img src="https://img.shields.io/badge/Stripe-Intermediate-1F6FEB?style=flat" alt="Stripe: Intermediate">
-  <img src="https://img.shields.io/badge/Node.js-Intermediate-1F6FEB?style=flat" alt="Node.js: Intermediate">
-  <img src="https://img.shields.io/badge/Expo-Intermediate-1F6FEB?style=flat" alt="Expo: Intermediate">
-  <img src="https://img.shields.io/badge/Languages-EN_·_PT_·_FR_·_ES_·_NL-555?style=flat" alt="Languages: English, Portuguese, French, Spanish, Dutch">
-</p>
+</details>
 
 ## 💻 My Tech Stack
 

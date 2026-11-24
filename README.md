@@ -42,16 +42,70 @@ I'm a **full-stack developer** who builds products end to end: the API, the data
 
 ## 🛠 Skills
 
-- **Back end:** Python, FastAPI, Flask, Celery, Node.js / Express, REST APIs, WebSockets / Socket.IO, background jobs and scheduling
-- **Front end:** TypeScript, React, Next.js (App Router, SSG / SSR), Vite, Tailwind CSS, shadcn/ui, Three.js
-- **Data:** MongoDB, PostgreSQL, MySQL, SQLite, Supabase, LanceDB, web scraping (requests, BeautifulSoup, Playwright)
-- **Payments and integrations:** Stripe (Checkout, webhooks, subscriptions), OAuth / Google sign-in, email delivery, Firebase
-- **DevOps:** Linux VPS, nginx, systemd, Docker, GitHub Actions, GitHub Pages
+- **Back end:** Python, FastAPI, Pydantic, Flask, Celery, APScheduler, Node.js / Express, REST APIs, WebSockets / Socket.IO, background jobs and scheduling
+- **Front end:** TypeScript, JavaScript, React, Next.js (App Router, SSG / SSR), Vite, Tailwind CSS, shadcn/ui, TanStack Query, Three.js, Leaflet maps
+- **Mobile:** Expo / React Native, Flutter
+- **Databases:** MongoDB (Beanie, geospatial and TTL indexes), PostgreSQL, MySQL, SQLite, Supabase, Redis, LanceDB
+- **Scraping and data:** requests, BeautifulSoup, Playwright, pandas, scheduled ingestion pipelines
+- **Payments and integrations:** Stripe (Checkout, webhooks, subscriptions), OAuth / Google sign-in, one-time-code login, transactional email (Brevo), Firebase
+- **Security:** JWT, OAuth2, HMAC-signed tokens, CSP, rate limiting, SSRF guards, SSH hardening
+- **Cloud and DevOps:** Linux VPS (Ubuntu), Docker / Compose, GHCR, nginx, systemd, Let's Encrypt, GitHub Actions, GitHub Pages, Cloudflare
 - **Testing:** pytest, Vitest, Playwright, evaluation harnesses for retrieval
-- **AI:** retrieval-augmented generation, embeddings, LLM APIs, AI-assisted development
+- **AI engineering:** retrieval-augmented generation, embeddings, hybrid search, LLM APIs, local models with Ollama, agentic coding workflows (skills, hooks, MCP)
+- **CMS:** WordPress, PHP (custom plugins and search)
+- **Practices:** Git, code review, CI on every repo, Makefiles, Mermaid architecture docs, SEO (structured data, Search Console)
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,fastapi,flask,nodejs,ts,react,nextjs,tailwind,vite,threejs,mongodb,postgres,mysql,docker,linux,nginx,githubactions,git&theme=dark" alt="Tech stack icons">
+  <img src="https://img.shields.io/badge/Experience-4%2B_years-3CB371?style=flat" alt="Experience: 4+ years">
+  <img src="https://img.shields.io/badge/Role-Full--Stack_Developer-0A66C2?style=flat" alt="Role: Full-Stack Developer">
+  <img src="https://img.shields.io/badge/Role-Lead_Developer-8250DF?style=flat" alt="Role: Lead Developer">
+  <img src="https://img.shields.io/badge/Products_in_production-6-E8590C?style=flat" alt="Products in production: 6">
+  <img src="https://img.shields.io/badge/Python-Advanced-8250DF?style=flat" alt="Python: Advanced">
+  <img src="https://img.shields.io/badge/FastAPI-Advanced-8250DF?style=flat" alt="FastAPI: Advanced">
+  <img src="https://img.shields.io/badge/TypeScript-Advanced-8250DF?style=flat" alt="TypeScript: Advanced">
+  <img src="https://img.shields.io/badge/React-Advanced-8250DF?style=flat" alt="React: Advanced">
+  <img src="https://img.shields.io/badge/Next.js-Advanced-8250DF?style=flat" alt="Next.js: Advanced">
+  <img src="https://img.shields.io/badge/MongoDB-Advanced-8250DF?style=flat" alt="MongoDB: Advanced">
+  <img src="https://img.shields.io/badge/PostgreSQL-Intermediate-1F6FEB?style=flat" alt="PostgreSQL: Intermediate">
+  <img src="https://img.shields.io/badge/Docker-Intermediate-1F6FEB?style=flat" alt="Docker: Intermediate">
+  <img src="https://img.shields.io/badge/Stripe-Intermediate-1F6FEB?style=flat" alt="Stripe: Intermediate">
+  <img src="https://img.shields.io/badge/Node.js-Intermediate-1F6FEB?style=flat" alt="Node.js: Intermediate">
+  <img src="https://img.shields.io/badge/Expo-Intermediate-1F6FEB?style=flat" alt="Expo: Intermediate">
+  <img src="https://img.shields.io/badge/Languages-EN_·_PT_·_FR_·_ES_·_NL-555?style=flat" alt="Languages: English, Portuguese, French, Spanish, Dutch">
+</p>
+
+## 💻 My Tech Stack
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,fastapi,flask,nodejs,express,ts,js,react,nextjs,vite,tailwind,threejs,flutter,html,css,mongodb,postgres,mysql,sqlite,redis,supabase,firebase,pytorch,php,wordpress,docker,linux,ubuntu,nginx,githubactions,cloudflare,git,github,vscode,vitest,pnpm,bash&perline=13&theme=dark" alt="Tech stack icons">
+</p>
+
+## 🤖 AI & LLM Tools
+
+<p>
+  <img src="https://img.shields.io/badge/Claude-191919?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude">
+  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code">
+  <img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=for-the-badge" alt="ChatGPT">
+  <img src="https://img.shields.io/badge/Codex_CLI-000000?style=for-the-badge" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot">
+  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor">
+  <img src="https://img.shields.io/badge/Windsurf-0B6BFF?style=for-the-badge&logo=windsurf&logoColor=white" alt="Windsurf">
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini">
+  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama">
+</p>
+
+## 🧰 Platforms & Tools
+
+<p>
+  <img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" alt="Stripe">
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase">
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare">
+  <img src="https://img.shields.io/badge/Hostinger_VPS-673DE6?style=for-the-badge&logo=hostinger&logoColor=white" alt="Hostinger VPS">
+  <img src="https://img.shields.io/badge/Brevo-0B996E?style=for-the-badge&logo=brevo&logoColor=white" alt="Brevo">
+  <img src="https://img.shields.io/badge/Search_Console-458CF5?style=for-the-badge&logo=googlesearchconsole&logoColor=white" alt="Google Search Console">
+  <img src="https://img.shields.io/badge/Mermaid-FF3670?style=for-the-badge&logo=mermaid&logoColor=white" alt="Mermaid">
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge" alt="Playwright">
+  <img src="https://img.shields.io/badge/Remotion-0B84F3?style=for-the-badge" alt="Remotion">
 </p>
 
 ## 📊 Activity

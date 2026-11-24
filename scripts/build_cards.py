@@ -90,11 +90,11 @@ def write(name: str, svg: str) -> None:
 
 PRODUCTS = [
     dict(slug="househunter", name="House Hunter", site="househunter.immo",
-         pitch="Real-estate search for Belgium: six listing sites in one search, saved-search "
-               "email alerts, market history and Stripe subscriptions.",
+         pitch="Home search for Belgium: one search across the market, saved-search alerts "
+               "by email and WhatsApp, market data and Stripe subscriptions.",
          stack="FastAPI, Celery, MongoDB, Next.js 16, Stripe"),
     dict(slug="skipy", name="Skipy", site="skipy.online",
-         pitch="Online store and skip-the-line ordering for cafés and small shops: customers "
+         pitch="Online store and skip-the-line ordering for food courts, cafés and shops: customers "
                "order and pay from their phone. Live in Belgium and Brazil.",
          stack="FastAPI, MongoDB, Celery, Next.js, Expo, Stripe"),
     dict(slug="hiddenbeer", name="HiddenBeer", site="hiddenbeer.com",

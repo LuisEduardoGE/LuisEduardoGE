@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="86" viewBox="0 0 400 86" role="img" aria-label="DZone (luiseduardoge): Technical articles reviewed by DZone's editors">
+<rect x=".5" y=".5" width="399" height="85" rx="10" fill="#161b22" stroke="#30363d"/>
+<svg x="20" y="17" width="24" height="24" viewBox="0 0 16 16" preserveAspectRatio="xMidYMid meet"  fill="#f0f6fc"><path d="M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.743 3.743 0 0 1 11.006 1h4.245a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.507a2.25 2.25 0 0 0-1.591.659l-.622.621a.75.75 0 0 1-1.06 0l-.622-.621A2.25 2.25 0 0 0 5.258 13H.75a.75.75 0 0 1-.75-.75Zm7.251 10.324.004-5.073-.002-2.253A2.25 2.25 0 0 0 5.003 2.5H1.5v9h3.757a3.75 3.75 0 0 1 1.994.574ZM8.755 4.75l-.004 7.322a3.752 3.752 0 0 1 1.992-.572H14.5v-9h-3.495a2.25 2.25 0 0 0-2.25 2.25Z"/></svg>
+<text x="56" y="35" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="15" font-weight="600" fill="#7ee2a8">DZone</text>
+<text x="114" y="35" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="12" fill="#8b949e">luiseduardoge</text>
+<text x="20" y="66" font-family='-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif' font-size="13" fill="#c9d1d9">Technical articles reviewed by DZone's editors</text>
+</svg>

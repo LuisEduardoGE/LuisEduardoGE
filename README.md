@@ -129,6 +129,12 @@ Play **[backrooms-game](https://luiseduardoge.github.io/backrooms-game/)** in yo
 
 Articles and talks come from real production problems in the products above: payments, deployments, and the tests that should have caught them.
 
+**Latest articles**
+
+<!-- latest-articles:start -->
+_First articles coming soon._
+<!-- latest-articles:end -->
+
 <p>
 <a href="https://dev.to/luiseduardoge"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-writing-devto-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-writing-devto-light.svg"><img src="assets/card-writing-devto-dark.svg" width="49%" alt="Dev Community (@luiseduardoge): hands-on articles, with the code that goes with them"></picture></a>
 <a href="https://luiseduardoge.hashnode.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-writing-hashnode-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-writing-hashnode-light.svg"><img src="assets/card-writing-hashnode-dark.svg" width="49%" alt="Hashnode (@luiseduardoge): long-form articles on production problems"></picture></a>

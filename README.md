@@ -132,7 +132,7 @@ Articles and talks come from real production problems in the products above: pay
 **Latest articles**
 
 <!-- latest-articles:start -->
-_First articles coming soon._
+- **[FastAPI vs Django REST Framework: A Hands-On Comparison for Modern Backend Developers](https://www.linkedin.com/pulse/fastapi-vs-django-rest-framework-hands-on-comparison-g-espindola-syo5c/)** (Dec 2025) on LinkedIn
 <!-- latest-articles:end -->
 
 <p>

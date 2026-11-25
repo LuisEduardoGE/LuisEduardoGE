@@ -1,6 +1,12 @@
 [
   {
     "platform": "LinkedIn",
+    "title": "My First Paying Customer Stayed on the Free Plan. The Error Said Only: get",
+    "url": "https://www.linkedin.com/pulse/my-first-paying-customer-stayed-free-plan-error-said-get-e2jue/",
+    "date": "2026-11-25"
+  },
+  {
+    "platform": "LinkedIn",
     "title": "FastAPI vs Django REST Framework: A Hands-On Comparison for Modern Backend Developers",
     "url": "https://www.linkedin.com/pulse/fastapi-vs-django-rest-framework-hands-on-comparison-g-espindola-syo5c/",
     "date": "2025-12-05"

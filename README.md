@@ -132,6 +132,7 @@ Articles and talks come from real production problems in the products above: pay
 **Latest articles**
 
 <!-- latest-articles:start -->
+- **[My First Paying Customer Stayed on the Free Plan. The Error Said Only: get](https://dev.to/luiseduardoge/my-first-paying-customer-stayed-on-the-free-plan-the-error-said-only-get-h2m)** (Nov 2026) on Dev.to, also on [Hashnode](https://luiseduardoge.hashnode.dev/my-first-paying-customer-stayed-on-the-free-plan-the-error-said-only-get), [Medium](https://medium.com/@luisedu.ge/my-first-paying-customer-stayed-on-the-free-plan-the-error-said-only-get-b22247c36798), [Substack](https://luiseduardoge.substack.com/p/my-first-paying-customer-stayed-on), [LinkedIn](https://www.linkedin.com/pulse/my-first-paying-customer-stayed-free-plan-error-said-get-e2jue/)
 - **[FastAPI vs Django REST Framework: A Hands-On Comparison for Modern Backend Developers](https://www.linkedin.com/pulse/fastapi-vs-django-rest-framework-hands-on-comparison-g-espindola-syo5c/)** (Dec 2025) on LinkedIn
 <!-- latest-articles:end -->
 

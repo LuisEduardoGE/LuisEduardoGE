@@ -32,9 +32,10 @@ LIMIT = 5
 UA = {"User-Agent": "Mozilla/5.0 (compatible; LuisEduardoGE-profile-articles)"}
 PREFERRED = ["Dev.to", "Hashnode", "Medium", "Substack", "DZone", "LinkedIn"]
 SOURCES = [
-    ("Dev.to", "devto", "https://dev.to/api/articles?username=luiseduardoge&per_page=100"),
+    ("Dev.to", "devto", "https://dev.to/api/articles?username=luiseduardoge&per_page=30"),
     ("Hashnode", "rss", "https://luiseduardoge.hashnode.dev/rss.xml"),
     ("Medium", "rss", "https://medium.com/feed/@luisedu.ge"),
+    ("Substack", "rss", "https://luiseduardoge.substack.com/feed"),
 ]
 
 
